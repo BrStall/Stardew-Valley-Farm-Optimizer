@@ -1,0 +1,104 @@
+{
+    "header": {
+        "target": "w",
+        "formatVersion": 5,
+        "hidef": true,
+        "compressed": 128
+    },
+    "readers": [
+        {
+            "type": "Microsoft.Xna.Framework.Content.DictionaryReader`2[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[StardewValley.GameData.PassiveFestivalData, StardewValley.GameData, Version=1.6.8.24119, Culture=neutral, PublicKeyToken=null]]",
+            "version": 0
+        },
+        {
+            "type": "Microsoft.Xna.Framework.Content.StringReader",
+            "version": 0
+        },
+        {
+            "type": "Microsoft.Xna.Framework.Content.ReflectiveReader`1[[StardewValley.GameData.PassiveFestivalData, StardewValley.GameData, Version=1.6.8.24119, Culture=neutral, PublicKeyToken=null]]",
+            "version": 0
+        },
+        {
+            "type": "Microsoft.Xna.Framework.Content.BooleanReader",
+            "version": 0
+        },
+        {
+            "type": "Microsoft.Xna.Framework.Content.EnumReader`1[[StardewValley.Season, StardewValley.GameData, Version=1.6.8.24119, Culture=neutral, PublicKeyToken=null]]",
+            "version": 0
+        },
+        {
+            "type": "Microsoft.Xna.Framework.Content.Int32Reader",
+            "version": 0
+        },
+        {
+            "type": "Microsoft.Xna.Framework.Content.DictionaryReader`2[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]",
+            "version": 0
+        }
+    ],
+    "content": {
+        "NightMarket": {
+            "DisplayName": "[LocalizedText Strings\\UI:Billboard_NightMarket]",
+            "Condition": "",
+            "ShowOnCalendar": true,
+            "Season": 3,
+            "StartDay": 15,
+            "EndDay": 17,
+            "StartTime": 1700,
+            "StartMessage": "[LocalizedText Strings\\Events:BeachNightMarket_NowOpen]",
+            "OnlyShowMessageOnFirstDay": false,
+            "MapReplacements": {
+                "Beach": "BeachNightMarket"
+            },
+            "DailySetupMethod": null,
+            "CleanupMethod": null,
+            "CustomFields": null
+        },
+        "DesertFestival": {
+            "DisplayName": "[LocalizedText Strings\\1_6_Strings:DesertFestival]",
+            "Condition": "LOCATION_ACCESSIBLE Desert",
+            "ShowOnCalendar": true,
+            "Season": 0,
+            "StartDay": 15,
+            "EndDay": 17,
+            "StartTime": 1000,
+            "StartMessage": "[LocalizedText Strings\\1_6_Strings:DesertFestival_NowOpen]",
+            "OnlyShowMessageOnFirstDay": false,
+            "MapReplacements": {
+                "Desert": "DesertFestival"
+            },
+            "DailySetupMethod": "StardewValley.Locations.DesertFestival, Stardew Valley: SetupFestivalDay",
+            "CleanupMethod": "StardewValley.Locations.DesertFestival, Stardew Valley: CleanupFestival",
+            "CustomFields": null
+        },
+        "TroutDerby": {
+            "DisplayName": "",
+            "Condition": "",
+            "ShowOnCalendar": false,
+            "Season": 1,
+            "StartDay": 20,
+            "EndDay": 21,
+            "StartTime": 610,
+            "StartMessage": "[LocalizedText Strings\\1_6_Strings:TroutDerby_NowOpen]",
+            "OnlyShowMessageOnFirstDay": true,
+            "MapReplacements": null,
+            "DailySetupMethod": null,
+            "CleanupMethod": null,
+            "CustomFields": null
+        },
+        "SquidFest": {
+            "DisplayName": "",
+            "Condition": "",
+            "ShowOnCalendar": false,
+            "Season": 3,
+            "StartDay": 12,
+            "EndDay": 13,
+            "StartTime": 610,
+            "StartMessage": "[LocalizedText Strings\\1_6_Strings:SquidFest_NowOpen]",
+            "OnlyShowMessageOnFirstDay": true,
+            "MapReplacements": null,
+            "DailySetupMethod": null,
+            "CleanupMethod": null,
+            "CustomFields": null
+        }
+    }
+}

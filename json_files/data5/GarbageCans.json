@@ -1,0 +1,514 @@
+{
+    "header": {
+        "target": "w",
+        "formatVersion": 5,
+        "hidef": true,
+        "compressed": 128
+    },
+    "readers": [
+        {
+            "type": "Microsoft.Xna.Framework.Content.ReflectiveReader`1[[StardewValley.GameData.GarbageCans.GarbageCanData, StardewValley.GameData, Version=1.6.8.24119, Culture=neutral, PublicKeyToken=null]]",
+            "version": 0
+        },
+        {
+            "type": "Microsoft.Xna.Framework.Content.SingleReader",
+            "version": 0
+        },
+        {
+            "type": "Microsoft.Xna.Framework.Content.ListReader`1[[StardewValley.GameData.GarbageCans.GarbageCanItemData, StardewValley.GameData, Version=1.6.8.24119, Culture=neutral, PublicKeyToken=null]]",
+            "version": 0
+        },
+        {
+            "type": "Microsoft.Xna.Framework.Content.ReflectiveReader`1[[StardewValley.GameData.GarbageCans.GarbageCanItemData, StardewValley.GameData, Version=1.6.8.24119, Culture=neutral, PublicKeyToken=null]]",
+            "version": 0
+        },
+        {
+            "type": "Microsoft.Xna.Framework.Content.ReflectiveReader`1[[StardewValley.GameData.GenericSpawnItemDataWithCondition, StardewValley.GameData, Version=1.6.8.24119, Culture=neutral, PublicKeyToken=null]]",
+            "version": 0
+        },
+        {
+            "type": "Microsoft.Xna.Framework.Content.ReflectiveReader`1[[StardewValley.GameData.GenericSpawnItemData, StardewValley.GameData, Version=1.6.8.24119, Culture=neutral, PublicKeyToken=null]]",
+            "version": 0
+        },
+        {
+            "type": "Microsoft.Xna.Framework.Content.StringReader",
+            "version": 0
+        },
+        {
+            "type": "Microsoft.Xna.Framework.Content.ListReader`1[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]",
+            "version": 0
+        },
+        {
+            "type": "Microsoft.Xna.Framework.Content.NullableReader`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]",
+            "version": 0
+        },
+        {
+            "type": "Microsoft.Xna.Framework.Content.Int32Reader",
+            "version": 0
+        },
+        {
+            "type": "Microsoft.Xna.Framework.Content.BooleanReader",
+            "version": 0
+        },
+        {
+            "type": "Microsoft.Xna.Framework.Content.ListReader`1[[StardewValley.GameData.QuantityModifier, StardewValley.GameData, Version=1.6.8.24119, Culture=neutral, PublicKeyToken=null]]",
+            "version": 0
+        },
+        {
+            "type": "Microsoft.Xna.Framework.Content.ReflectiveReader`1[[StardewValley.GameData.QuantityModifier, StardewValley.GameData, Version=1.6.8.24119, Culture=neutral, PublicKeyToken=null]]",
+            "version": 0
+        },
+        {
+            "type": "Microsoft.Xna.Framework.Content.EnumReader`1[[StardewValley.GameData.QuantityModifier+ModificationType, StardewValley.GameData, Version=1.6.8.24119, Culture=neutral, PublicKeyToken=null]]",
+            "version": 0
+        },
+        {
+            "type": "Microsoft.Xna.Framework.Content.ListReader`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]",
+            "version": 0
+        },
+        {
+            "type": "Microsoft.Xna.Framework.Content.EnumReader`1[[StardewValley.GameData.QuantityModifier+QuantityModifierMode, StardewValley.GameData, Version=1.6.8.24119, Culture=neutral, PublicKeyToken=null]]",
+            "version": 0
+        },
+        {
+            "type": "Microsoft.Xna.Framework.Content.DictionaryReader`2[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]",
+            "version": 0
+        },
+        {
+            "type": "Microsoft.Xna.Framework.Content.DictionaryReader`2[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[StardewValley.GameData.GarbageCans.GarbageCanEntryData, StardewValley.GameData, Version=1.6.8.24119, Culture=neutral, PublicKeyToken=null]]",
+            "version": 0
+        },
+        {
+            "type": "Microsoft.Xna.Framework.Content.ReflectiveReader`1[[StardewValley.GameData.GarbageCans.GarbageCanEntryData, StardewValley.GameData, Version=1.6.8.24119, Culture=neutral, PublicKeyToken=null]]",
+            "version": 0
+        }
+    ],
+    "content": {
+        "DefaultBaseChance": 0.20000000298023224,
+        "BeforeAll": [
+            {
+                "Id": "Base_GarbageHat",
+                "ItemId": "(H)66",
+                "RandomItemId": null,
+                "MaxItems": null,
+                "MinStack": -1,
+                "MaxStack": -1,
+                "Quality": -1,
+                "ObjectInternalName": null,
+                "ObjectDisplayName": null,
+                "ToolUpgradeLevel": -1,
+                "IsRecipe": false,
+                "StackModifiers": null,
+                "StackModifierMode": 0,
+                "QualityModifiers": null,
+                "QualityModifierMode": 0,
+                "ModData": null,
+                "PerItemCondition": null,
+                "Condition": "PLAYER_STAT Current trashCansChecked 20, RANDOM .002",
+                "IgnoreBaseChance": true,
+                "IsMegaSuccess": false,
+                "IsDoubleMegaSuccess": true,
+                "AddToInventoryDirectly": true,
+                "CreateMultipleDebris": false
+            },
+            {
+                "Id": "Base_TrashCatalogue",
+                "ItemId": "(F)TrashCatalogue",
+                "RandomItemId": null,
+                "MaxItems": null,
+                "MinStack": -1,
+                "MaxStack": -1,
+                "Quality": -1,
+                "ObjectInternalName": null,
+                "ObjectDisplayName": null,
+                "ToolUpgradeLevel": -1,
+                "IsRecipe": false,
+                "StackModifiers": null,
+                "StackModifierMode": 0,
+                "QualityModifiers": null,
+                "QualityModifierMode": 0,
+                "ModData": null,
+                "PerItemCondition": null,
+                "Condition": "PLAYER_STAT Current trashCansChecked 50, RANDOM .002",
+                "IgnoreBaseChance": true,
+                "IsMegaSuccess": false,
+                "IsDoubleMegaSuccess": true,
+                "AddToInventoryDirectly": false,
+                "CreateMultipleDebris": false
+            },
+            {
+                "Id": "Base_QiBean",
+                "ItemId": "(O)890",
+                "RandomItemId": null,
+                "MaxItems": null,
+                "MinStack": -1,
+                "MaxStack": -1,
+                "Quality": -1,
+                "ObjectInternalName": null,
+                "ObjectDisplayName": null,
+                "ToolUpgradeLevel": -1,
+                "IsRecipe": false,
+                "StackModifiers": null,
+                "StackModifierMode": 0,
+                "QualityModifiers": null,
+                "QualityModifierMode": 0,
+                "ModData": null,
+                "PerItemCondition": null,
+                "Condition": "PLAYER_SPECIAL_ORDER_RULE_ACTIVE Current DROP_QI_BEANS, RANDOM 0.25",
+                "IgnoreBaseChance": false,
+                "IsMegaSuccess": false,
+                "IsDoubleMegaSuccess": false,
+                "AddToInventoryDirectly": false,
+                "CreateMultipleDebris": false
+            }
+        ],
+        "AfterAll": [
+            {
+                "Id": "Base_MegaSuccessFallback",
+                "ItemId": null,
+                "RandomItemId": [
+                    "(O)153",
+                    "(O)216",
+                    "(O)403",
+                    "(O)309",
+                    "(O)310",
+                    "(O)311",
+                    "RANDOM_BASE_SEASON_ITEM"
+                ],
+                "MaxItems": null,
+                "MinStack": -1,
+                "MaxStack": -1,
+                "Quality": -1,
+                "ObjectInternalName": null,
+                "ObjectDisplayName": null,
+                "ToolUpgradeLevel": -1,
+                "IsRecipe": false,
+                "StackModifiers": null,
+                "StackModifierMode": 0,
+                "QualityModifiers": null,
+                "QualityModifierMode": 0,
+                "ModData": null,
+                "PerItemCondition": null,
+                "Condition": "PLAYER_STAT Current trashCansChecked 20, RANDOM .01",
+                "IgnoreBaseChance": true,
+                "IsMegaSuccess": true,
+                "IsDoubleMegaSuccess": false,
+                "AddToInventoryDirectly": false,
+                "CreateMultipleDebris": false
+            },
+            {
+                "Id": "Base_Fallback",
+                "ItemId": null,
+                "RandomItemId": [
+                    "(O)153",
+                    "(O)216",
+                    "(O)403",
+                    "(O)309",
+                    "(O)310",
+                    "(O)311",
+                    "RANDOM_BASE_SEASON_ITEM",
+                    "(O)168",
+                    "(O)167",
+                    "(O)170",
+                    "(O)171",
+                    "(O)172"
+                ],
+                "MaxItems": null,
+                "MinStack": -1,
+                "MaxStack": -1,
+                "Quality": -1,
+                "ObjectInternalName": null,
+                "ObjectDisplayName": null,
+                "ToolUpgradeLevel": -1,
+                "IsRecipe": false,
+                "StackModifiers": null,
+                "StackModifierMode": 0,
+                "QualityModifiers": null,
+                "QualityModifierMode": 0,
+                "ModData": null,
+                "PerItemCondition": null,
+                "Condition": null,
+                "IgnoreBaseChance": false,
+                "IsMegaSuccess": false,
+                "IsDoubleMegaSuccess": false,
+                "AddToInventoryDirectly": false,
+                "CreateMultipleDebris": false
+            }
+        ],
+        "GarbageCans": {
+            "Blacksmith": {
+                "BaseChance": -1,
+                "Items": [
+                    {
+                        "Id": "Base_Ore",
+                        "ItemId": null,
+                        "RandomItemId": [
+                            "(O)378",
+                            "(O)380",
+                            "(O)382"
+                        ],
+                        "MaxItems": null,
+                        "MinStack": -1,
+                        "MaxStack": -1,
+                        "Quality": -1,
+                        "ObjectInternalName": null,
+                        "ObjectDisplayName": null,
+                        "ToolUpgradeLevel": -1,
+                        "IsRecipe": false,
+                        "StackModifiers": [
+                            {
+                                "Id": "DefaultMultiplier",
+                                "Condition": null,
+                                "Modification": 2,
+                                "Amount": 0,
+                                "RandomAmount": [
+                                    1,
+                                    2,
+                                    3,
+                                    4
+                                ]
+                            }
+                        ],
+                        "StackModifierMode": 0,
+                        "QualityModifiers": null,
+                        "QualityModifierMode": 0,
+                        "ModData": null,
+                        "PerItemCondition": null,
+                        "Condition": "RANDOM 0.2 @addDailyLuck",
+                        "IgnoreBaseChance": false,
+                        "IsMegaSuccess": false,
+                        "IsDoubleMegaSuccess": false,
+                        "AddToInventoryDirectly": false,
+                        "CreateMultipleDebris": false
+                    }
+                ],
+                "CustomFields": null
+            },
+            "EmilyAndHaley": {
+                "BaseChance": -1,
+                "Items": [],
+                "CustomFields": null
+            },
+            "Evelyn": {
+                "BaseChance": -1,
+                "Items": [
+                    {
+                        "Id": "Base_Cookie",
+                        "ItemId": "(O)223",
+                        "RandomItemId": null,
+                        "MaxItems": null,
+                        "MinStack": -1,
+                        "MaxStack": -1,
+                        "Quality": -1,
+                        "ObjectInternalName": null,
+                        "ObjectDisplayName": null,
+                        "ToolUpgradeLevel": -1,
+                        "IsRecipe": false,
+                        "StackModifiers": null,
+                        "StackModifierMode": 0,
+                        "QualityModifiers": null,
+                        "QualityModifierMode": 0,
+                        "ModData": null,
+                        "PerItemCondition": null,
+                        "Condition": "RANDOM 0.2 @addDailyLuck",
+                        "IgnoreBaseChance": false,
+                        "IsMegaSuccess": false,
+                        "IsDoubleMegaSuccess": false,
+                        "AddToInventoryDirectly": false,
+                        "CreateMultipleDebris": false
+                    }
+                ],
+                "CustomFields": null
+            },
+            "JodiAndKent": {
+                "BaseChance": -1,
+                "Items": [],
+                "CustomFields": null
+            },
+            "JojaMart": {
+                "BaseChance": -1,
+                "Items": [
+                    {
+                        "Id": "Base_MovieTicketOrCorn",
+                        "ItemId": null,
+                        "RandomItemId": [
+                            "(O)809",
+                            "(O)270",
+                            "(O)270",
+                            "(O)270"
+                        ],
+                        "MaxItems": null,
+                        "MinStack": -1,
+                        "MaxStack": -1,
+                        "Quality": -1,
+                        "ObjectInternalName": null,
+                        "ObjectDisplayName": null,
+                        "ToolUpgradeLevel": -1,
+                        "IsRecipe": false,
+                        "StackModifiers": null,
+                        "StackModifierMode": 0,
+                        "QualityModifiers": null,
+                        "QualityModifierMode": 0,
+                        "ModData": null,
+                        "PerItemCondition": null,
+                        "Condition": "SYNCED_RANDOM day garbage_joja 0.2, PLAYER_HAS_MAIL Host ccMovieTheater, !PLAYER_HAS_MAIL Host ccMovieTheaterJoja",
+                        "IgnoreBaseChance": false,
+                        "IsMegaSuccess": false,
+                        "IsDoubleMegaSuccess": false,
+                        "AddToInventoryDirectly": false,
+                        "CreateMultipleDebris": false
+                    },
+                    {
+                        "Id": "Base_JojaCola",
+                        "ItemId": "(O)167",
+                        "RandomItemId": null,
+                        "MaxItems": null,
+                        "MinStack": -1,
+                        "MaxStack": -1,
+                        "Quality": -1,
+                        "ObjectInternalName": null,
+                        "ObjectDisplayName": null,
+                        "ToolUpgradeLevel": -1,
+                        "IsRecipe": false,
+                        "StackModifiers": null,
+                        "StackModifierMode": 0,
+                        "QualityModifiers": null,
+                        "QualityModifierMode": 0,
+                        "ModData": null,
+                        "PerItemCondition": null,
+                        "Condition": "SYNCED_RANDOM day garbage_joja 0.2, !PLAYER_HAS_SEEN_EVENT Any 191393",
+                        "IgnoreBaseChance": false,
+                        "IsMegaSuccess": false,
+                        "IsDoubleMegaSuccess": false,
+                        "AddToInventoryDirectly": false,
+                        "CreateMultipleDebris": false
+                    }
+                ],
+                "CustomFields": null
+            },
+            "Mayor": {
+                "BaseChance": -1,
+                "Items": [],
+                "CustomFields": null
+            },
+            "Museum": {
+                "BaseChance": -1,
+                "Items": [
+                    {
+                        "Id": "Base_OmniGeode",
+                        "ItemId": "(O)749",
+                        "RandomItemId": null,
+                        "MaxItems": null,
+                        "MinStack": -1,
+                        "MaxStack": -1,
+                        "Quality": -1,
+                        "ObjectInternalName": null,
+                        "ObjectDisplayName": null,
+                        "ToolUpgradeLevel": -1,
+                        "IsRecipe": false,
+                        "StackModifiers": null,
+                        "StackModifierMode": 0,
+                        "QualityModifiers": null,
+                        "QualityModifierMode": 0,
+                        "ModData": null,
+                        "PerItemCondition": null,
+                        "Condition": "SYNCED_RANDOM day garbage_museum_535 0.2 @addDailyLuck, SYNCED_RANDOM day garbage_museum_749 0.05",
+                        "IgnoreBaseChance": false,
+                        "IsMegaSuccess": false,
+                        "IsDoubleMegaSuccess": false,
+                        "AddToInventoryDirectly": false,
+                        "CreateMultipleDebris": false
+                    },
+                    {
+                        "Id": "Base_Geode",
+                        "ItemId": "(O)535",
+                        "RandomItemId": null,
+                        "MaxItems": null,
+                        "MinStack": -1,
+                        "MaxStack": -1,
+                        "Quality": -1,
+                        "ObjectInternalName": null,
+                        "ObjectDisplayName": null,
+                        "ToolUpgradeLevel": -1,
+                        "IsRecipe": false,
+                        "StackModifiers": null,
+                        "StackModifierMode": 0,
+                        "QualityModifiers": null,
+                        "QualityModifierMode": 0,
+                        "ModData": null,
+                        "PerItemCondition": null,
+                        "Condition": "SYNCED_RANDOM day garbage_museum_535 0.2 @addDailyLuck",
+                        "IgnoreBaseChance": false,
+                        "IsMegaSuccess": false,
+                        "IsDoubleMegaSuccess": false,
+                        "AddToInventoryDirectly": false,
+                        "CreateMultipleDebris": false
+                    }
+                ],
+                "CustomFields": null
+            },
+            "Saloon": {
+                "BaseChance": -1,
+                "Items": [
+                    {
+                        "Id": "Base_DishOfTheDay",
+                        "ItemId": "DISH_OF_THE_DAY",
+                        "RandomItemId": null,
+                        "MaxItems": null,
+                        "MinStack": -1,
+                        "MaxStack": -1,
+                        "Quality": -1,
+                        "ObjectInternalName": null,
+                        "ObjectDisplayName": null,
+                        "ToolUpgradeLevel": -1,
+                        "IsRecipe": false,
+                        "StackModifiers": null,
+                        "StackModifierMode": 0,
+                        "QualityModifiers": null,
+                        "QualityModifierMode": 0,
+                        "ModData": null,
+                        "PerItemCondition": null,
+                        "Condition": "SYNCED_RANDOM day garbage_saloon_dish 0.2 @addDailyLuck",
+                        "IgnoreBaseChance": false,
+                        "IsMegaSuccess": false,
+                        "IsDoubleMegaSuccess": false,
+                        "AddToInventoryDirectly": false,
+                        "CreateMultipleDebris": false
+                    }
+                ],
+                "CustomFields": null
+            },
+            "DesertFestival": {
+                "BaseChance": -1,
+                "Items": [
+                    {
+                        "Id": "CalicoEggs",
+                        "ItemId": "(O)CalicoEgg",
+                        "RandomItemId": null,
+                        "MaxItems": null,
+                        "MinStack": 5,
+                        "MaxStack": 8,
+                        "Quality": -1,
+                        "ObjectInternalName": null,
+                        "ObjectDisplayName": null,
+                        "ToolUpgradeLevel": -1,
+                        "IsRecipe": false,
+                        "StackModifiers": null,
+                        "StackModifierMode": 0,
+                        "QualityModifiers": null,
+                        "QualityModifierMode": 0,
+                        "ModData": null,
+                        "PerItemCondition": null,
+                        "Condition": null,
+                        "IgnoreBaseChance": true,
+                        "IsMegaSuccess": false,
+                        "IsDoubleMegaSuccess": false,
+                        "AddToInventoryDirectly": false,
+                        "CreateMultipleDebris": true
+                    }
+                ],
+                "CustomFields": null
+            }
+        }
+    }
+}

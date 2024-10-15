@@ -1,0 +1,42 @@
+{
+    "header": {
+        "target": "w",
+        "formatVersion": 5,
+        "hidef": true,
+        "compressed": 128
+    },
+    "readers": [
+        {
+            "type": "Microsoft.Xna.Framework.Content.ListReader`1[[StardewValley.GameData.ModFarmType, StardewValley.GameData, Version=1.6.8.24119, Culture=neutral, PublicKeyToken=null]]",
+            "version": 0
+        },
+        {
+            "type": "Microsoft.Xna.Framework.Content.ReflectiveReader`1[[StardewValley.GameData.ModFarmType, StardewValley.GameData, Version=1.6.8.24119, Culture=neutral, PublicKeyToken=null]]",
+            "version": 0
+        },
+        {
+            "type": "Microsoft.Xna.Framework.Content.StringReader",
+            "version": 0
+        },
+        {
+            "type": "Microsoft.Xna.Framework.Content.BooleanReader",
+            "version": 0
+        },
+        {
+            "type": "Microsoft.Xna.Framework.Content.DictionaryReader`2[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]",
+            "version": 0
+        }
+    ],
+    "content": [
+        {
+            "ID": "MeadowlandsFarm",
+            "TooltipStringPath": "Strings/1_6_Strings:Farm_Ranching_Description",
+            "MapName": "Farm_Ranching",
+            "IconTexture": "LooseSprites/farm_ranching_icon",
+            "WorldMapTexture": "LooseSprites/Farm_ranching_map",
+            "SpawnMonstersByDefault": false,
+            "ModData": null,
+            "CustomFields": null
+        }
+    ]
+}

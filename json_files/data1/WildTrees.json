@@ -1,0 +1,1430 @@
+{
+    "header": {
+        "target": "w",
+        "formatVersion": 5,
+        "hidef": true,
+        "compressed": 128
+    },
+    "readers": [
+        {
+            "type": "Microsoft.Xna.Framework.Content.DictionaryReader`2[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[StardewValley.GameData.WildTrees.WildTreeData, StardewValley.GameData, Version=1.6.8.24119, Culture=neutral, PublicKeyToken=null]]",
+            "version": 0
+        },
+        {
+            "type": "Microsoft.Xna.Framework.Content.StringReader",
+            "version": 0
+        },
+        {
+            "type": "Microsoft.Xna.Framework.Content.ReflectiveReader`1[[StardewValley.GameData.WildTrees.WildTreeData, StardewValley.GameData, Version=1.6.8.24119, Culture=neutral, PublicKeyToken=null]]",
+            "version": 0
+        },
+        {
+            "type": "Microsoft.Xna.Framework.Content.ListReader`1[[StardewValley.GameData.WildTrees.WildTreeTextureData, StardewValley.GameData, Version=1.6.8.24119, Culture=neutral, PublicKeyToken=null]]",
+            "version": 0
+        },
+        {
+            "type": "Microsoft.Xna.Framework.Content.ReflectiveReader`1[[StardewValley.GameData.WildTrees.WildTreeTextureData, StardewValley.GameData, Version=1.6.8.24119, Culture=neutral, PublicKeyToken=null]]",
+            "version": 0
+        },
+        {
+            "type": "Microsoft.Xna.Framework.Content.NullableReader`1[[StardewValley.Season, StardewValley.GameData, Version=1.6.8.24119, Culture=neutral, PublicKeyToken=null]]",
+            "version": 0
+        },
+        {
+            "type": "Microsoft.Xna.Framework.Content.EnumReader`1[[StardewValley.Season, StardewValley.GameData, Version=1.6.8.24119, Culture=neutral, PublicKeyToken=null]]",
+            "version": 0
+        },
+        {
+            "type": "Microsoft.Xna.Framework.Content.Int32Reader",
+            "version": 0
+        },
+        {
+            "type": "Microsoft.Xna.Framework.Content.BooleanReader",
+            "version": 0
+        },
+        {
+            "type": "Microsoft.Xna.Framework.Content.SingleReader",
+            "version": 0
+        },
+        {
+            "type": "Microsoft.Xna.Framework.Content.ListReader`1[[StardewValley.GameData.PlantableRule, StardewValley.GameData, Version=1.6.8.24119, Culture=neutral, PublicKeyToken=null]]",
+            "version": 0
+        },
+        {
+            "type": "Microsoft.Xna.Framework.Content.ReflectiveReader`1[[StardewValley.GameData.PlantableRule, StardewValley.GameData, Version=1.6.8.24119, Culture=neutral, PublicKeyToken=null]]",
+            "version": 0
+        },
+        {
+            "type": "Microsoft.Xna.Framework.Content.EnumReader`1[[StardewValley.GameData.PlantableRuleContext, StardewValley.GameData, Version=1.6.8.24119, Culture=neutral, PublicKeyToken=null]]",
+            "version": 0
+        },
+        {
+            "type": "Microsoft.Xna.Framework.Content.EnumReader`1[[StardewValley.GameData.PlantableResult, StardewValley.GameData, Version=1.6.8.24119, Culture=neutral, PublicKeyToken=null]]",
+            "version": 0
+        },
+        {
+            "type": "Microsoft.Xna.Framework.Content.ListReader`1[[StardewValley.GameData.WildTrees.WildTreeSeedDropItemData, StardewValley.GameData, Version=1.6.8.24119, Culture=neutral, PublicKeyToken=null]]",
+            "version": 0
+        },
+        {
+            "type": "Microsoft.Xna.Framework.Content.ReflectiveReader`1[[StardewValley.GameData.WildTrees.WildTreeSeedDropItemData, StardewValley.GameData, Version=1.6.8.24119, Culture=neutral, PublicKeyToken=null]]",
+            "version": 0
+        },
+        {
+            "type": "Microsoft.Xna.Framework.Content.ReflectiveReader`1[[StardewValley.GameData.WildTrees.WildTreeItemData, StardewValley.GameData, Version=1.6.8.24119, Culture=neutral, PublicKeyToken=null]]",
+            "version": 0
+        },
+        {
+            "type": "Microsoft.Xna.Framework.Content.ReflectiveReader`1[[StardewValley.GameData.GenericSpawnItemDataWithCondition, StardewValley.GameData, Version=1.6.8.24119, Culture=neutral, PublicKeyToken=null]]",
+            "version": 0
+        },
+        {
+            "type": "Microsoft.Xna.Framework.Content.ReflectiveReader`1[[StardewValley.GameData.GenericSpawnItemData, StardewValley.GameData, Version=1.6.8.24119, Culture=neutral, PublicKeyToken=null]]",
+            "version": 0
+        },
+        {
+            "type": "Microsoft.Xna.Framework.Content.ListReader`1[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]",
+            "version": 0
+        },
+        {
+            "type": "Microsoft.Xna.Framework.Content.NullableReader`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]",
+            "version": 0
+        },
+        {
+            "type": "Microsoft.Xna.Framework.Content.ListReader`1[[StardewValley.GameData.QuantityModifier, StardewValley.GameData, Version=1.6.8.24119, Culture=neutral, PublicKeyToken=null]]",
+            "version": 0
+        },
+        {
+            "type": "Microsoft.Xna.Framework.Content.ReflectiveReader`1[[StardewValley.GameData.QuantityModifier, StardewValley.GameData, Version=1.6.8.24119, Culture=neutral, PublicKeyToken=null]]",
+            "version": 0
+        },
+        {
+            "type": "Microsoft.Xna.Framework.Content.EnumReader`1[[StardewValley.GameData.QuantityModifier+ModificationType, StardewValley.GameData, Version=1.6.8.24119, Culture=neutral, PublicKeyToken=null]]",
+            "version": 0
+        },
+        {
+            "type": "Microsoft.Xna.Framework.Content.ListReader`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]",
+            "version": 0
+        },
+        {
+            "type": "Microsoft.Xna.Framework.Content.EnumReader`1[[StardewValley.GameData.QuantityModifier+QuantityModifierMode, StardewValley.GameData, Version=1.6.8.24119, Culture=neutral, PublicKeyToken=null]]",
+            "version": 0
+        },
+        {
+            "type": "Microsoft.Xna.Framework.Content.DictionaryReader`2[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]",
+            "version": 0
+        },
+        {
+            "type": "Microsoft.Xna.Framework.Content.ListReader`1[[StardewValley.GameData.WildTrees.WildTreeChopItemData, StardewValley.GameData, Version=1.6.8.24119, Culture=neutral, PublicKeyToken=null]]",
+            "version": 0
+        },
+        {
+            "type": "Microsoft.Xna.Framework.Content.ReflectiveReader`1[[StardewValley.GameData.WildTrees.WildTreeChopItemData, StardewValley.GameData, Version=1.6.8.24119, Culture=neutral, PublicKeyToken=null]]",
+            "version": 0
+        },
+        {
+            "type": "Microsoft.Xna.Framework.Content.NullableReader`1[[StardewValley.GameData.WildTrees.WildTreeGrowthStage, StardewValley.GameData, Version=1.6.8.24119, Culture=neutral, PublicKeyToken=null]]",
+            "version": 0
+        },
+        {
+            "type": "Microsoft.Xna.Framework.Content.EnumReader`1[[StardewValley.GameData.WildTrees.WildTreeGrowthStage, StardewValley.GameData, Version=1.6.8.24119, Culture=neutral, PublicKeyToken=null]]",
+            "version": 0
+        },
+        {
+            "type": "Microsoft.Xna.Framework.Content.NullableReader`1[[System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]",
+            "version": 0
+        },
+        {
+            "type": "Microsoft.Xna.Framework.Content.ListReader`1[[StardewValley.GameData.WildTrees.WildTreeTapItemData, StardewValley.GameData, Version=1.6.8.24119, Culture=neutral, PublicKeyToken=null]]",
+            "version": 0
+        },
+        {
+            "type": "Microsoft.Xna.Framework.Content.ReflectiveReader`1[[StardewValley.GameData.WildTrees.WildTreeTapItemData, StardewValley.GameData, Version=1.6.8.24119, Culture=neutral, PublicKeyToken=null]]",
+            "version": 0
+        },
+        {
+            "type": "Microsoft.Xna.Framework.Content.ListReader`1[[StardewValley.GameData.WildTrees.WildTreeItemData, StardewValley.GameData, Version=1.6.8.24119, Culture=neutral, PublicKeyToken=null]]",
+            "version": 0
+        }
+    ],
+    "content": {
+        "1": {
+            "Textures": [
+                {
+                    "Condition": null,
+                    "Season": 1,
+                    "Texture": "TerrainFeatures\\tree1_summer"
+                },
+                {
+                    "Condition": null,
+                    "Season": 2,
+                    "Texture": "TerrainFeatures\\tree1_fall"
+                },
+                {
+                    "Condition": null,
+                    "Season": 3,
+                    "Texture": "TerrainFeatures\\tree1_winter"
+                },
+                {
+                    "Condition": null,
+                    "Season": null,
+                    "Texture": "TerrainFeatures\\tree1_spring"
+                }
+            ],
+            "SeedItemId": "(O)309",
+            "SeedPlantable": true,
+            "GrowthChance": 0.20000000298023224,
+            "FertilizedGrowthChance": 1,
+            "SeedSpreadChance": 0.15000000596046448,
+            "SeedOnShakeChance": 0.05000000074505806,
+            "SeedOnChopChance": 0.75,
+            "DropWoodOnChop": true,
+            "DropHardwoodOnLumberChop": true,
+            "IsLeafy": true,
+            "IsLeafyInWinter": false,
+            "IsLeafyInFall": true,
+            "PlantableLocationRules": null,
+            "GrowsInWinter": false,
+            "IsStumpDuringWinter": false,
+            "AllowWoodpeckers": true,
+            "UseAlternateSpriteWhenNotShaken": false,
+            "UseAlternateSpriteWhenSeedReady": false,
+            "DebrisColor": null,
+            "SeedDropItems": null,
+            "ChopItems": [
+                {
+                    "Id": "(O)92",
+                    "ItemId": "(O)92",
+                    "RandomItemId": null,
+                    "MaxItems": null,
+                    "MinStack": 1,
+                    "MaxStack": -1,
+                    "Quality": -1,
+                    "ObjectInternalName": null,
+                    "ObjectDisplayName": null,
+                    "ToolUpgradeLevel": -1,
+                    "IsRecipe": false,
+                    "StackModifiers": null,
+                    "StackModifierMode": 0,
+                    "QualityModifiers": null,
+                    "QualityModifierMode": 0,
+                    "ModData": null,
+                    "PerItemCondition": null,
+                    "Condition": null,
+                    "Season": null,
+                    "Chance": 1,
+                    "MinSize": null,
+                    "MaxSize": null,
+                    "ForStump": true
+                }
+            ],
+            "TapItems": [
+                {
+                    "Id": "Default",
+                    "ItemId": "(O)725",
+                    "RandomItemId": null,
+                    "MaxItems": null,
+                    "MinStack": 1,
+                    "MaxStack": -1,
+                    "Quality": -1,
+                    "ObjectInternalName": null,
+                    "ObjectDisplayName": null,
+                    "ToolUpgradeLevel": -1,
+                    "IsRecipe": false,
+                    "StackModifiers": null,
+                    "StackModifierMode": 0,
+                    "QualityModifiers": null,
+                    "QualityModifierMode": 0,
+                    "ModData": null,
+                    "PerItemCondition": null,
+                    "Condition": null,
+                    "Season": null,
+                    "Chance": 1,
+                    "PreviousItemId": null,
+                    "DaysUntilReady": 7,
+                    "DaysUntilReadyModifiers": null,
+                    "DaysUntilReadyModifierMode": 0
+                }
+            ],
+            "ShakeItems": null,
+            "CustomFields": null,
+            "GrowsMoss": true
+        },
+        "2": {
+            "Textures": [
+                {
+                    "Condition": null,
+                    "Season": 1,
+                    "Texture": "TerrainFeatures\\tree2_summer"
+                },
+                {
+                    "Condition": null,
+                    "Season": 2,
+                    "Texture": "TerrainFeatures\\tree2_fall"
+                },
+                {
+                    "Condition": null,
+                    "Season": 3,
+                    "Texture": "TerrainFeatures\\tree2_winter"
+                },
+                {
+                    "Condition": null,
+                    "Season": null,
+                    "Texture": "TerrainFeatures\\tree2_spring"
+                }
+            ],
+            "SeedItemId": "(O)310",
+            "SeedPlantable": true,
+            "GrowthChance": 0.20000000298023224,
+            "FertilizedGrowthChance": 1,
+            "SeedSpreadChance": 0.15000000596046448,
+            "SeedOnShakeChance": 0.05000000074505806,
+            "SeedOnChopChance": 0.75,
+            "DropWoodOnChop": true,
+            "DropHardwoodOnLumberChop": true,
+            "IsLeafy": true,
+            "IsLeafyInWinter": false,
+            "IsLeafyInFall": true,
+            "PlantableLocationRules": null,
+            "GrowsInWinter": false,
+            "IsStumpDuringWinter": false,
+            "AllowWoodpeckers": false,
+            "UseAlternateSpriteWhenNotShaken": false,
+            "UseAlternateSpriteWhenSeedReady": false,
+            "DebrisColor": null,
+            "SeedDropItems": [
+                {
+                    "Id": "Hazelnut",
+                    "ItemId": "(O)408",
+                    "RandomItemId": null,
+                    "MaxItems": null,
+                    "MinStack": -1,
+                    "MaxStack": -1,
+                    "Quality": -1,
+                    "ObjectInternalName": null,
+                    "ObjectDisplayName": null,
+                    "ToolUpgradeLevel": -1,
+                    "IsRecipe": false,
+                    "StackModifiers": null,
+                    "StackModifierMode": 0,
+                    "QualityModifiers": null,
+                    "QualityModifierMode": 0,
+                    "ModData": null,
+                    "PerItemCondition": null,
+                    "Condition": "DAY_OF_MONTH 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28",
+                    "Season": 2,
+                    "Chance": 1,
+                    "ContinueOnDrop": false
+                }
+            ],
+            "ChopItems": [
+                {
+                    "Id": "(O)92",
+                    "ItemId": "(O)92",
+                    "RandomItemId": null,
+                    "MaxItems": null,
+                    "MinStack": 1,
+                    "MaxStack": -1,
+                    "Quality": -1,
+                    "ObjectInternalName": null,
+                    "ObjectDisplayName": null,
+                    "ToolUpgradeLevel": -1,
+                    "IsRecipe": false,
+                    "StackModifiers": null,
+                    "StackModifierMode": 0,
+                    "QualityModifiers": null,
+                    "QualityModifierMode": 0,
+                    "ModData": null,
+                    "PerItemCondition": null,
+                    "Condition": null,
+                    "Season": null,
+                    "Chance": 1,
+                    "MinSize": null,
+                    "MaxSize": null,
+                    "ForStump": true
+                }
+            ],
+            "TapItems": [
+                {
+                    "Id": "Default",
+                    "ItemId": "(O)724",
+                    "RandomItemId": null,
+                    "MaxItems": null,
+                    "MinStack": 1,
+                    "MaxStack": -1,
+                    "Quality": -1,
+                    "ObjectInternalName": null,
+                    "ObjectDisplayName": null,
+                    "ToolUpgradeLevel": -1,
+                    "IsRecipe": false,
+                    "StackModifiers": null,
+                    "StackModifierMode": 0,
+                    "QualityModifiers": null,
+                    "QualityModifierMode": 0,
+                    "ModData": null,
+                    "PerItemCondition": null,
+                    "Condition": null,
+                    "Season": null,
+                    "Chance": 1,
+                    "PreviousItemId": null,
+                    "DaysUntilReady": 9,
+                    "DaysUntilReadyModifiers": null,
+                    "DaysUntilReadyModifierMode": 0
+                }
+            ],
+            "ShakeItems": null,
+            "CustomFields": null,
+            "GrowsMoss": true
+        },
+        "3": {
+            "Textures": [
+                {
+                    "Condition": null,
+                    "Season": 2,
+                    "Texture": "TerrainFeatures\\tree3_fall"
+                },
+                {
+                    "Condition": null,
+                    "Season": 3,
+                    "Texture": "TerrainFeatures\\tree3_winter"
+                },
+                {
+                    "Condition": null,
+                    "Season": null,
+                    "Texture": "TerrainFeatures\\tree3_spring"
+                }
+            ],
+            "SeedItemId": "(O)311",
+            "SeedPlantable": true,
+            "GrowthChance": 0.20000000298023224,
+            "FertilizedGrowthChance": 1,
+            "SeedSpreadChance": 0.15000000596046448,
+            "SeedOnShakeChance": 0.05000000074505806,
+            "SeedOnChopChance": 0.75,
+            "DropWoodOnChop": true,
+            "DropHardwoodOnLumberChop": true,
+            "IsLeafy": true,
+            "IsLeafyInWinter": true,
+            "IsLeafyInFall": true,
+            "PlantableLocationRules": null,
+            "GrowsInWinter": false,
+            "IsStumpDuringWinter": false,
+            "AllowWoodpeckers": false,
+            "UseAlternateSpriteWhenNotShaken": false,
+            "UseAlternateSpriteWhenSeedReady": false,
+            "DebrisColor": null,
+            "SeedDropItems": null,
+            "ChopItems": [
+                {
+                    "Id": "(O)92",
+                    "ItemId": "(O)92",
+                    "RandomItemId": null,
+                    "MaxItems": null,
+                    "MinStack": 1,
+                    "MaxStack": -1,
+                    "Quality": -1,
+                    "ObjectInternalName": null,
+                    "ObjectDisplayName": null,
+                    "ToolUpgradeLevel": -1,
+                    "IsRecipe": false,
+                    "StackModifiers": null,
+                    "StackModifierMode": 0,
+                    "QualityModifiers": null,
+                    "QualityModifierMode": 0,
+                    "ModData": null,
+                    "PerItemCondition": null,
+                    "Condition": null,
+                    "Season": null,
+                    "Chance": 1,
+                    "MinSize": null,
+                    "MaxSize": null,
+                    "ForStump": true
+                }
+            ],
+            "TapItems": [
+                {
+                    "Id": "Default",
+                    "ItemId": "(O)726",
+                    "RandomItemId": null,
+                    "MaxItems": null,
+                    "MinStack": 1,
+                    "MaxStack": -1,
+                    "Quality": -1,
+                    "ObjectInternalName": null,
+                    "ObjectDisplayName": null,
+                    "ToolUpgradeLevel": -1,
+                    "IsRecipe": false,
+                    "StackModifiers": null,
+                    "StackModifierMode": 0,
+                    "QualityModifiers": null,
+                    "QualityModifierMode": 0,
+                    "ModData": null,
+                    "PerItemCondition": null,
+                    "Condition": null,
+                    "Season": null,
+                    "Chance": 1,
+                    "PreviousItemId": null,
+                    "DaysUntilReady": 5,
+                    "DaysUntilReadyModifiers": null,
+                    "DaysUntilReadyModifierMode": 0
+                }
+            ],
+            "ShakeItems": null,
+            "CustomFields": null,
+            "GrowsMoss": true
+        },
+        "6": {
+            "Textures": [
+                {
+                    "Condition": null,
+                    "Season": null,
+                    "Texture": "TerrainFeatures\\tree_palm"
+                }
+            ],
+            "SeedItemId": "(O)88",
+            "SeedPlantable": false,
+            "GrowthChance": 0.20000000298023224,
+            "FertilizedGrowthChance": 1,
+            "SeedSpreadChance": 0.15000000596046448,
+            "SeedOnShakeChance": 0.05000000074505806,
+            "SeedOnChopChance": 0.75,
+            "DropWoodOnChop": true,
+            "DropHardwoodOnLumberChop": true,
+            "IsLeafy": true,
+            "IsLeafyInWinter": true,
+            "IsLeafyInFall": true,
+            "PlantableLocationRules": null,
+            "GrowsInWinter": true,
+            "IsStumpDuringWinter": false,
+            "AllowWoodpeckers": true,
+            "UseAlternateSpriteWhenNotShaken": false,
+            "UseAlternateSpriteWhenSeedReady": false,
+            "DebrisColor": null,
+            "SeedDropItems": [
+                {
+                    "Id": "GoldenCoconut",
+                    "ItemId": "(O)791",
+                    "RandomItemId": null,
+                    "MaxItems": null,
+                    "MinStack": -1,
+                    "MaxStack": -1,
+                    "Quality": -1,
+                    "ObjectInternalName": null,
+                    "ObjectDisplayName": null,
+                    "ToolUpgradeLevel": -1,
+                    "IsRecipe": false,
+                    "StackModifiers": null,
+                    "StackModifierMode": 0,
+                    "QualityModifiers": null,
+                    "QualityModifierMode": 0,
+                    "ModData": null,
+                    "PerItemCondition": null,
+                    "Condition": "LOCATION_CONTEXT Target Island",
+                    "Season": null,
+                    "Chance": 0.10000000149011612,
+                    "ContinueOnDrop": true
+                }
+            ],
+            "ChopItems": null,
+            "TapItems": null,
+            "ShakeItems": null,
+            "CustomFields": null,
+            "GrowsMoss": false
+        },
+        "7": {
+            "Textures": [
+                {
+                    "Condition": null,
+                    "Season": null,
+                    "Texture": "TerrainFeatures\\mushroom_tree"
+                }
+            ],
+            "SeedItemId": "(O)891",
+            "SeedPlantable": true,
+            "GrowthChance": 0.20000000298023224,
+            "FertilizedGrowthChance": 1,
+            "SeedSpreadChance": 0.15000000596046448,
+            "SeedOnShakeChance": 0,
+            "SeedOnChopChance": 0,
+            "DropWoodOnChop": false,
+            "DropHardwoodOnLumberChop": false,
+            "IsLeafy": false,
+            "IsLeafyInWinter": false,
+            "IsLeafyInFall": true,
+            "PlantableLocationRules": null,
+            "GrowsInWinter": false,
+            "IsStumpDuringWinter": true,
+            "AllowWoodpeckers": true,
+            "UseAlternateSpriteWhenNotShaken": false,
+            "UseAlternateSpriteWhenSeedReady": false,
+            "DebrisColor": "White",
+            "SeedDropItems": null,
+            "ChopItems": [
+                {
+                    "Id": "(O)420",
+                    "ItemId": "(O)420",
+                    "RandomItemId": null,
+                    "MaxItems": null,
+                    "MinStack": 1,
+                    "MaxStack": -1,
+                    "Quality": -1,
+                    "ObjectInternalName": null,
+                    "ObjectDisplayName": null,
+                    "ToolUpgradeLevel": -1,
+                    "IsRecipe": false,
+                    "StackModifiers": null,
+                    "StackModifierMode": 0,
+                    "QualityModifiers": null,
+                    "QualityModifierMode": 0,
+                    "ModData": null,
+                    "PerItemCondition": null,
+                    "Condition": null,
+                    "Season": null,
+                    "Chance": 1,
+                    "MinSize": 3,
+                    "MaxSize": 3,
+                    "ForStump": false
+                },
+                {
+                    "Id": "(O)420",
+                    "ItemId": "(O)420",
+                    "RandomItemId": null,
+                    "MaxItems": null,
+                    "MinStack": 5,
+                    "MaxStack": -1,
+                    "Quality": -1,
+                    "ObjectInternalName": null,
+                    "ObjectDisplayName": null,
+                    "ToolUpgradeLevel": -1,
+                    "IsRecipe": false,
+                    "StackModifiers": null,
+                    "StackModifierMode": 0,
+                    "QualityModifiers": null,
+                    "QualityModifierMode": 0,
+                    "ModData": null,
+                    "PerItemCondition": null,
+                    "Condition": null,
+                    "Season": null,
+                    "Chance": 1,
+                    "MinSize": 5,
+                    "MaxSize": null,
+                    "ForStump": false
+                },
+                {
+                    "Id": "(H)42",
+                    "ItemId": "(H)42",
+                    "RandomItemId": null,
+                    "MaxItems": null,
+                    "MinStack": 1,
+                    "MaxStack": -1,
+                    "Quality": -1,
+                    "ObjectInternalName": null,
+                    "ObjectDisplayName": null,
+                    "ToolUpgradeLevel": -1,
+                    "IsRecipe": false,
+                    "StackModifiers": null,
+                    "StackModifierMode": 0,
+                    "QualityModifiers": null,
+                    "QualityModifierMode": 0,
+                    "ModData": null,
+                    "PerItemCondition": null,
+                    "Condition": null,
+                    "Season": null,
+                    "Chance": 0.009999999776482582,
+                    "MinSize": 5,
+                    "MaxSize": null,
+                    "ForStump": false
+                },
+                {
+                    "Id": "(O)420",
+                    "ItemId": "(O)420",
+                    "RandomItemId": null,
+                    "MaxItems": null,
+                    "MinStack": 1,
+                    "MaxStack": -1,
+                    "Quality": -1,
+                    "ObjectInternalName": null,
+                    "ObjectDisplayName": null,
+                    "ToolUpgradeLevel": -1,
+                    "IsRecipe": false,
+                    "StackModifiers": null,
+                    "StackModifierMode": 0,
+                    "QualityModifiers": null,
+                    "QualityModifierMode": 0,
+                    "ModData": null,
+                    "PerItemCondition": null,
+                    "Condition": null,
+                    "Season": null,
+                    "Chance": 1,
+                    "MinSize": null,
+                    "MaxSize": null,
+                    "ForStump": true
+                }
+            ],
+            "TapItems": [
+                {
+                    "Id": "Initial_Fall",
+                    "ItemId": "(O)420",
+                    "RandomItemId": null,
+                    "MaxItems": null,
+                    "MinStack": 1,
+                    "MaxStack": -1,
+                    "Quality": -1,
+                    "ObjectInternalName": null,
+                    "ObjectDisplayName": null,
+                    "ToolUpgradeLevel": -1,
+                    "IsRecipe": false,
+                    "StackModifiers": null,
+                    "StackModifierMode": 0,
+                    "QualityModifiers": null,
+                    "QualityModifierMode": 0,
+                    "ModData": null,
+                    "PerItemCondition": null,
+                    "Condition": null,
+                    "Season": 2,
+                    "Chance": 1,
+                    "PreviousItemId": [
+                        ""
+                    ],
+                    "DaysUntilReady": 1,
+                    "DaysUntilReadyModifiers": null,
+                    "DaysUntilReadyModifierMode": 0
+                },
+                {
+                    "Id": "Initial_NotFall",
+                    "ItemId": "(O)404",
+                    "RandomItemId": null,
+                    "MaxItems": null,
+                    "MinStack": 1,
+                    "MaxStack": -1,
+                    "Quality": -1,
+                    "ObjectInternalName": null,
+                    "ObjectDisplayName": null,
+                    "ToolUpgradeLevel": -1,
+                    "IsRecipe": false,
+                    "StackModifiers": null,
+                    "StackModifierMode": 0,
+                    "QualityModifiers": null,
+                    "QualityModifierMode": 0,
+                    "ModData": null,
+                    "PerItemCondition": null,
+                    "Condition": "!LOCATION_SEASON Target Winter",
+                    "Season": null,
+                    "Chance": 1,
+                    "PreviousItemId": [
+                        ""
+                    ],
+                    "DaysUntilReady": 2,
+                    "DaysUntilReadyModifiers": null,
+                    "DaysUntilReadyModifierMode": 0
+                },
+                {
+                    "Id": "FromPurpleMushroom",
+                    "ItemId": "(O)420",
+                    "RandomItemId": null,
+                    "MaxItems": null,
+                    "MinStack": 1,
+                    "MaxStack": -1,
+                    "Quality": -1,
+                    "ObjectInternalName": null,
+                    "ObjectDisplayName": null,
+                    "ToolUpgradeLevel": -1,
+                    "IsRecipe": false,
+                    "StackModifiers": null,
+                    "StackModifierMode": 0,
+                    "QualityModifiers": null,
+                    "QualityModifierMode": 0,
+                    "ModData": null,
+                    "PerItemCondition": null,
+                    "Condition": "!LOCATION_SEASON Target Winter",
+                    "Season": null,
+                    "Chance": 1,
+                    "PreviousItemId": [
+                        "(O)422"
+                    ],
+                    "DaysUntilReady": 1,
+                    "DaysUntilReadyModifiers": null,
+                    "DaysUntilReadyModifierMode": 0
+                },
+                {
+                    "Id": "Day10Or20",
+                    "ItemId": "(O)422",
+                    "RandomItemId": null,
+                    "MaxItems": null,
+                    "MinStack": 1,
+                    "MaxStack": -1,
+                    "Quality": -1,
+                    "ObjectInternalName": null,
+                    "ObjectDisplayName": null,
+                    "ToolUpgradeLevel": -1,
+                    "IsRecipe": false,
+                    "StackModifiers": null,
+                    "StackModifierMode": 0,
+                    "QualityModifiers": null,
+                    "QualityModifierMode": 0,
+                    "ModData": null,
+                    "PerItemCondition": null,
+                    "Condition": "!LOCATION_SEASON Target Winter, DAY_OF_MONTH 10 20",
+                    "Season": null,
+                    "Chance": 1,
+                    "PreviousItemId": null,
+                    "DaysUntilReady": 2,
+                    "DaysUntilReadyModifiers": [
+                        {
+                            "Id": "Fall",
+                            "Condition": "LOCATION_SEASON Target Fall",
+                            "Modification": 4,
+                            "Amount": 1,
+                            "RandomAmount": null
+                        }
+                    ],
+                    "DaysUntilReadyModifierMode": 0
+                },
+                {
+                    "Id": "FallRepeat",
+                    "ItemId": "PREVIOUS_OUTPUT_ID",
+                    "RandomItemId": null,
+                    "MaxItems": null,
+                    "MinStack": 1,
+                    "MaxStack": -1,
+                    "Quality": -1,
+                    "ObjectInternalName": null,
+                    "ObjectDisplayName": null,
+                    "ToolUpgradeLevel": -1,
+                    "IsRecipe": false,
+                    "StackModifiers": null,
+                    "StackModifierMode": 0,
+                    "QualityModifiers": null,
+                    "QualityModifierMode": 0,
+                    "ModData": null,
+                    "PerItemCondition": null,
+                    "Condition": null,
+                    "Season": 2,
+                    "Chance": 1,
+                    "PreviousItemId": null,
+                    "DaysUntilReady": 1,
+                    "DaysUntilReadyModifiers": null,
+                    "DaysUntilReadyModifierMode": 0
+                },
+                {
+                    "Id": "Default",
+                    "ItemId": "(O)404",
+                    "RandomItemId": null,
+                    "MaxItems": null,
+                    "MinStack": 1,
+                    "MaxStack": -1,
+                    "Quality": -1,
+                    "ObjectInternalName": null,
+                    "ObjectDisplayName": null,
+                    "ToolUpgradeLevel": -1,
+                    "IsRecipe": false,
+                    "StackModifiers": null,
+                    "StackModifierMode": 0,
+                    "QualityModifiers": null,
+                    "QualityModifierMode": 0,
+                    "ModData": null,
+                    "PerItemCondition": null,
+                    "Condition": "!LOCATION_SEASON Target winter",
+                    "Season": null,
+                    "Chance": 1,
+                    "PreviousItemId": null,
+                    "DaysUntilReady": 2,
+                    "DaysUntilReadyModifiers": null,
+                    "DaysUntilReadyModifierMode": 0
+                }
+            ],
+            "ShakeItems": null,
+            "CustomFields": null,
+            "GrowsMoss": false
+        },
+        "8": {
+            "Textures": [
+                {
+                    "Condition": null,
+                    "Season": 1,
+                    "Texture": "TerrainFeatures\\tree8_summer"
+                },
+                {
+                    "Condition": null,
+                    "Season": 2,
+                    "Texture": "TerrainFeatures\\tree8_fall"
+                },
+                {
+                    "Condition": null,
+                    "Season": 3,
+                    "Texture": "TerrainFeatures\\tree8_winter"
+                },
+                {
+                    "Condition": null,
+                    "Season": null,
+                    "Texture": "TerrainFeatures\\tree8_spring"
+                }
+            ],
+            "SeedItemId": "(O)292",
+            "SeedPlantable": true,
+            "GrowthChance": 0.15000000596046448,
+            "FertilizedGrowthChance": 0.6000000238418579,
+            "SeedSpreadChance": 0.15000000596046448,
+            "SeedOnShakeChance": 0.05000000074505806,
+            "SeedOnChopChance": 0.5625,
+            "DropWoodOnChop": false,
+            "DropHardwoodOnLumberChop": true,
+            "IsLeafy": true,
+            "IsLeafyInWinter": false,
+            "IsLeafyInFall": true,
+            "PlantableLocationRules": null,
+            "GrowsInWinter": false,
+            "IsStumpDuringWinter": false,
+            "AllowWoodpeckers": true,
+            "UseAlternateSpriteWhenNotShaken": false,
+            "UseAlternateSpriteWhenSeedReady": false,
+            "DebrisColor": null,
+            "SeedDropItems": null,
+            "ChopItems": [
+                {
+                    "Id": "(O)709",
+                    "ItemId": "(O)709",
+                    "RandomItemId": null,
+                    "MaxItems": null,
+                    "MinStack": 7,
+                    "MaxStack": 11,
+                    "Quality": -1,
+                    "ObjectInternalName": null,
+                    "ObjectDisplayName": null,
+                    "ToolUpgradeLevel": -1,
+                    "IsRecipe": false,
+                    "StackModifiers": null,
+                    "StackModifierMode": 0,
+                    "QualityModifiers": null,
+                    "QualityModifierMode": 0,
+                    "ModData": null,
+                    "PerItemCondition": null,
+                    "Condition": null,
+                    "Season": null,
+                    "Chance": 1,
+                    "MinSize": 5,
+                    "MaxSize": null,
+                    "ForStump": false
+                },
+                {
+                    "Id": "(O)709",
+                    "ItemId": "(O)709",
+                    "RandomItemId": null,
+                    "MaxItems": null,
+                    "MinStack": 1,
+                    "MaxStack": -1,
+                    "Quality": -1,
+                    "ObjectInternalName": null,
+                    "ObjectDisplayName": null,
+                    "ToolUpgradeLevel": -1,
+                    "IsRecipe": false,
+                    "StackModifiers": null,
+                    "StackModifierMode": 0,
+                    "QualityModifiers": null,
+                    "QualityModifierMode": 0,
+                    "ModData": null,
+                    "PerItemCondition": null,
+                    "Condition": null,
+                    "Season": null,
+                    "Chance": 1,
+                    "MinSize": null,
+                    "MaxSize": null,
+                    "ForStump": true
+                }
+            ],
+            "TapItems": [
+                {
+                    "Id": "Default",
+                    "ItemId": "(O)92",
+                    "RandomItemId": null,
+                    "MaxItems": null,
+                    "MinStack": 5,
+                    "MaxStack": 10,
+                    "Quality": -1,
+                    "ObjectInternalName": null,
+                    "ObjectDisplayName": null,
+                    "ToolUpgradeLevel": -1,
+                    "IsRecipe": false,
+                    "StackModifiers": null,
+                    "StackModifierMode": 0,
+                    "QualityModifiers": null,
+                    "QualityModifierMode": 0,
+                    "ModData": null,
+                    "PerItemCondition": null,
+                    "Condition": null,
+                    "Season": null,
+                    "Chance": 1,
+                    "PreviousItemId": null,
+                    "DaysUntilReady": 1,
+                    "DaysUntilReadyModifiers": null,
+                    "DaysUntilReadyModifierMode": 0
+                }
+            ],
+            "ShakeItems": null,
+            "CustomFields": null,
+            "GrowsMoss": false
+        },
+        "9": {
+            "Textures": [
+                {
+                    "Condition": null,
+                    "Season": null,
+                    "Texture": "TerrainFeatures\\tree_palm2"
+                }
+            ],
+            "SeedItemId": "(O)88",
+            "SeedPlantable": false,
+            "GrowthChance": 0.20000000298023224,
+            "FertilizedGrowthChance": 1,
+            "SeedSpreadChance": 0.15000000596046448,
+            "SeedOnShakeChance": 0.15000000596046448,
+            "SeedOnChopChance": 0.75,
+            "DropWoodOnChop": true,
+            "DropHardwoodOnLumberChop": true,
+            "IsLeafy": true,
+            "IsLeafyInWinter": true,
+            "IsLeafyInFall": true,
+            "PlantableLocationRules": null,
+            "GrowsInWinter": true,
+            "IsStumpDuringWinter": false,
+            "AllowWoodpeckers": true,
+            "UseAlternateSpriteWhenNotShaken": false,
+            "UseAlternateSpriteWhenSeedReady": true,
+            "DebrisColor": null,
+            "SeedDropItems": [
+                {
+                    "Id": "GoldenCoconut",
+                    "ItemId": "(O)791",
+                    "RandomItemId": null,
+                    "MaxItems": null,
+                    "MinStack": -1,
+                    "MaxStack": -1,
+                    "Quality": -1,
+                    "ObjectInternalName": null,
+                    "ObjectDisplayName": null,
+                    "ToolUpgradeLevel": -1,
+                    "IsRecipe": false,
+                    "StackModifiers": null,
+                    "StackModifierMode": 0,
+                    "QualityModifiers": null,
+                    "QualityModifierMode": 0,
+                    "ModData": null,
+                    "PerItemCondition": null,
+                    "Condition": "LOCATION_CONTEXT Target Island",
+                    "Season": null,
+                    "Chance": 0.10000000149011612,
+                    "ContinueOnDrop": true
+                }
+            ],
+            "ChopItems": null,
+            "TapItems": null,
+            "ShakeItems": null,
+            "CustomFields": null,
+            "GrowsMoss": false
+        },
+        "10": {
+            "Textures": [
+                {
+                    "Condition": null,
+                    "Season": 1,
+                    "Texture": "TerrainFeatures\\tree1_greenRain"
+                },
+                {
+                    "Condition": null,
+                    "Season": 2,
+                    "Texture": "TerrainFeatures\\tree1_greenRain_fall"
+                },
+                {
+                    "Condition": null,
+                    "Season": 3,
+                    "Texture": "TerrainFeatures\\tree1_greenRain_winter"
+                },
+                {
+                    "Condition": null,
+                    "Season": null,
+                    "Texture": "TerrainFeatures\\tree1_greenRain"
+                }
+            ],
+            "SeedItemId": "MossySeed",
+            "SeedPlantable": true,
+            "GrowthChance": 0.20000000298023224,
+            "FertilizedGrowthChance": 1,
+            "SeedSpreadChance": 0.15000000596046448,
+            "SeedOnShakeChance": 0.05000000074505806,
+            "SeedOnChopChance": 0.05000000074505806,
+            "DropWoodOnChop": true,
+            "DropHardwoodOnLumberChop": true,
+            "IsLeafy": true,
+            "IsLeafyInWinter": false,
+            "IsLeafyInFall": false,
+            "PlantableLocationRules": null,
+            "GrowsInWinter": false,
+            "IsStumpDuringWinter": false,
+            "AllowWoodpeckers": true,
+            "UseAlternateSpriteWhenNotShaken": false,
+            "UseAlternateSpriteWhenSeedReady": false,
+            "DebrisColor": null,
+            "SeedDropItems": null,
+            "ChopItems": [
+                {
+                    "Id": "(O)92",
+                    "ItemId": "(O)92",
+                    "RandomItemId": null,
+                    "MaxItems": null,
+                    "MinStack": 1,
+                    "MaxStack": -1,
+                    "Quality": -1,
+                    "ObjectInternalName": null,
+                    "ObjectDisplayName": null,
+                    "ToolUpgradeLevel": -1,
+                    "IsRecipe": false,
+                    "StackModifiers": null,
+                    "StackModifierMode": 0,
+                    "QualityModifiers": null,
+                    "QualityModifierMode": 0,
+                    "ModData": null,
+                    "PerItemCondition": null,
+                    "Condition": null,
+                    "Season": null,
+                    "Chance": 1,
+                    "MinSize": null,
+                    "MaxSize": null,
+                    "ForStump": true
+                }
+            ],
+            "TapItems": null,
+            "ShakeItems": null,
+            "CustomFields": null,
+            "GrowsMoss": true
+        },
+        "11": {
+            "Textures": [
+                {
+                    "Condition": null,
+                    "Season": 1,
+                    "Texture": "TerrainFeatures\\tree2_greenRain"
+                },
+                {
+                    "Condition": null,
+                    "Season": 2,
+                    "Texture": "TerrainFeatures\\tree2_greenRain_fall"
+                },
+                {
+                    "Condition": null,
+                    "Season": 3,
+                    "Texture": "TerrainFeatures\\tree2_greenRain_winter"
+                },
+                {
+                    "Condition": null,
+                    "Season": null,
+                    "Texture": "TerrainFeatures\\tree2_greenRain"
+                }
+            ],
+            "SeedItemId": "MossySeed",
+            "SeedPlantable": true,
+            "GrowthChance": 0.20000000298023224,
+            "FertilizedGrowthChance": 1,
+            "SeedSpreadChance": 0.15000000596046448,
+            "SeedOnShakeChance": 0.05000000074505806,
+            "SeedOnChopChance": 0.05000000074505806,
+            "DropWoodOnChop": true,
+            "DropHardwoodOnLumberChop": true,
+            "IsLeafy": true,
+            "IsLeafyInWinter": false,
+            "IsLeafyInFall": false,
+            "PlantableLocationRules": null,
+            "GrowsInWinter": false,
+            "IsStumpDuringWinter": false,
+            "AllowWoodpeckers": true,
+            "UseAlternateSpriteWhenNotShaken": false,
+            "UseAlternateSpriteWhenSeedReady": false,
+            "DebrisColor": null,
+            "SeedDropItems": null,
+            "ChopItems": [
+                {
+                    "Id": "(O)92",
+                    "ItemId": "(O)92",
+                    "RandomItemId": null,
+                    "MaxItems": null,
+                    "MinStack": 1,
+                    "MaxStack": -1,
+                    "Quality": -1,
+                    "ObjectInternalName": null,
+                    "ObjectDisplayName": null,
+                    "ToolUpgradeLevel": -1,
+                    "IsRecipe": false,
+                    "StackModifiers": null,
+                    "StackModifierMode": 0,
+                    "QualityModifiers": null,
+                    "QualityModifierMode": 0,
+                    "ModData": null,
+                    "PerItemCondition": null,
+                    "Condition": null,
+                    "Season": null,
+                    "Chance": 1,
+                    "MinSize": null,
+                    "MaxSize": null,
+                    "ForStump": true
+                }
+            ],
+            "TapItems": null,
+            "ShakeItems": null,
+            "CustomFields": null,
+            "GrowsMoss": true
+        },
+        "12": {
+            "Textures": [
+                {
+                    "Condition": null,
+                    "Season": 1,
+                    "Texture": "TerrainFeatures\\tree3_greenRain"
+                },
+                {
+                    "Condition": null,
+                    "Season": 2,
+                    "Texture": "TerrainFeatures\\tree3_greenRain_fall"
+                },
+                {
+                    "Condition": null,
+                    "Season": 3,
+                    "Texture": "TerrainFeatures\\tree3_greenRain_winter"
+                },
+                {
+                    "Condition": null,
+                    "Season": null,
+                    "Texture": "TerrainFeatures\\tree3_greenRain"
+                }
+            ],
+            "SeedItemId": "MossySeed",
+            "SeedPlantable": true,
+            "GrowthChance": 0.20000000298023224,
+            "FertilizedGrowthChance": 1,
+            "SeedSpreadChance": 0.15000000596046448,
+            "SeedOnShakeChance": 0.05000000074505806,
+            "SeedOnChopChance": 0.05000000074505806,
+            "DropWoodOnChop": false,
+            "DropHardwoodOnLumberChop": false,
+            "IsLeafy": false,
+            "IsLeafyInWinter": false,
+            "IsLeafyInFall": true,
+            "PlantableLocationRules": null,
+            "GrowsInWinter": false,
+            "IsStumpDuringWinter": true,
+            "AllowWoodpeckers": true,
+            "UseAlternateSpriteWhenNotShaken": false,
+            "UseAlternateSpriteWhenSeedReady": false,
+            "DebrisColor": null,
+            "SeedDropItems": null,
+            "ChopItems": [
+                {
+                    "Id": "(O)259",
+                    "ItemId": "(O)259",
+                    "RandomItemId": null,
+                    "MaxItems": null,
+                    "MinStack": 5,
+                    "MaxStack": -1,
+                    "Quality": -1,
+                    "ObjectInternalName": null,
+                    "ObjectDisplayName": null,
+                    "ToolUpgradeLevel": -1,
+                    "IsRecipe": false,
+                    "StackModifiers": null,
+                    "StackModifierMode": 0,
+                    "QualityModifiers": null,
+                    "QualityModifierMode": 0,
+                    "ModData": null,
+                    "PerItemCondition": null,
+                    "Condition": null,
+                    "Season": null,
+                    "Chance": 1,
+                    "MinSize": 5,
+                    "MaxSize": null,
+                    "ForStump": false
+                },
+                {
+                    "Id": "(O)259",
+                    "ItemId": "(O)259",
+                    "RandomItemId": null,
+                    "MaxItems": null,
+                    "MinStack": 1,
+                    "MaxStack": -1,
+                    "Quality": -1,
+                    "ObjectInternalName": null,
+                    "ObjectDisplayName": null,
+                    "ToolUpgradeLevel": -1,
+                    "IsRecipe": false,
+                    "StackModifiers": null,
+                    "StackModifierMode": 0,
+                    "QualityModifiers": null,
+                    "QualityModifierMode": 0,
+                    "ModData": null,
+                    "PerItemCondition": null,
+                    "Condition": null,
+                    "Season": null,
+                    "Chance": 1,
+                    "MinSize": null,
+                    "MaxSize": null,
+                    "ForStump": true
+                }
+            ],
+            "TapItems": [
+                {
+                    "Id": "Default",
+                    "ItemId": "(O)259",
+                    "RandomItemId": null,
+                    "MaxItems": null,
+                    "MinStack": 1,
+                    "MaxStack": -1,
+                    "Quality": -1,
+                    "ObjectInternalName": null,
+                    "ObjectDisplayName": null,
+                    "ToolUpgradeLevel": -1,
+                    "IsRecipe": false,
+                    "StackModifiers": null,
+                    "StackModifierMode": 0,
+                    "QualityModifiers": null,
+                    "QualityModifierMode": 0,
+                    "ModData": null,
+                    "PerItemCondition": null,
+                    "Condition": "!LOCATION_SEASON Target Winter",
+                    "Season": null,
+                    "Chance": 1,
+                    "PreviousItemId": null,
+                    "DaysUntilReady": 2,
+                    "DaysUntilReadyModifiers": null,
+                    "DaysUntilReadyModifierMode": 0
+                }
+            ],
+            "ShakeItems": null,
+            "CustomFields": null,
+            "GrowsMoss": false
+        },
+        "13": {
+            "Textures": [
+                {
+                    "Condition": null,
+                    "Season": 1,
+                    "Texture": "TerrainFeatures\\mystic_tree"
+                },
+                {
+                    "Condition": null,
+                    "Season": 2,
+                    "Texture": "TerrainFeatures\\mystic_tree"
+                },
+                {
+                    "Condition": null,
+                    "Season": 3,
+                    "Texture": "TerrainFeatures\\mystic_tree"
+                },
+                {
+                    "Condition": null,
+                    "Season": null,
+                    "Texture": "TerrainFeatures\\mystic_tree"
+                }
+            ],
+            "SeedItemId": "MysticTreeSeed",
+            "SeedPlantable": true,
+            "GrowthChance": 0.15000000596046448,
+            "FertilizedGrowthChance": 0.30000001192092896,
+            "SeedSpreadChance": 0,
+            "SeedOnShakeChance": 0,
+            "SeedOnChopChance": 0,
+            "DropWoodOnChop": false,
+            "DropHardwoodOnLumberChop": true,
+            "IsLeafy": true,
+            "IsLeafyInWinter": false,
+            "IsLeafyInFall": true,
+            "PlantableLocationRules": null,
+            "GrowsInWinter": false,
+            "IsStumpDuringWinter": false,
+            "AllowWoodpeckers": true,
+            "UseAlternateSpriteWhenNotShaken": false,
+            "UseAlternateSpriteWhenSeedReady": false,
+            "DebrisColor": null,
+            "SeedDropItems": null,
+            "ChopItems": [
+                {
+                    "Id": "(O)709",
+                    "ItemId": "(O)709",
+                    "RandomItemId": null,
+                    "MaxItems": null,
+                    "MinStack": 7,
+                    "MaxStack": 11,
+                    "Quality": -1,
+                    "ObjectInternalName": null,
+                    "ObjectDisplayName": null,
+                    "ToolUpgradeLevel": -1,
+                    "IsRecipe": false,
+                    "StackModifiers": null,
+                    "StackModifierMode": 0,
+                    "QualityModifiers": null,
+                    "QualityModifierMode": 0,
+                    "ModData": null,
+                    "PerItemCondition": null,
+                    "Condition": null,
+                    "Season": null,
+                    "Chance": 1,
+                    "MinSize": 5,
+                    "MaxSize": null,
+                    "ForStump": false
+                },
+                {
+                    "Id": "(O)709",
+                    "ItemId": "(O)709",
+                    "RandomItemId": null,
+                    "MaxItems": null,
+                    "MinStack": 1,
+                    "MaxStack": -1,
+                    "Quality": -1,
+                    "ObjectInternalName": null,
+                    "ObjectDisplayName": null,
+                    "ToolUpgradeLevel": -1,
+                    "IsRecipe": false,
+                    "StackModifiers": null,
+                    "StackModifierMode": 0,
+                    "QualityModifiers": null,
+                    "QualityModifierMode": 0,
+                    "ModData": null,
+                    "PerItemCondition": null,
+                    "Condition": null,
+                    "Season": null,
+                    "Chance": 1,
+                    "MinSize": null,
+                    "MaxSize": null,
+                    "ForStump": true
+                }
+            ],
+            "TapItems": [
+                {
+                    "Id": "Default",
+                    "ItemId": "(O)MysticSyrup",
+                    "RandomItemId": null,
+                    "MaxItems": null,
+                    "MinStack": 1,
+                    "MaxStack": -1,
+                    "Quality": -1,
+                    "ObjectInternalName": null,
+                    "ObjectDisplayName": null,
+                    "ToolUpgradeLevel": -1,
+                    "IsRecipe": false,
+                    "StackModifiers": null,
+                    "StackModifierMode": 0,
+                    "QualityModifiers": null,
+                    "QualityModifierMode": 0,
+                    "ModData": null,
+                    "PerItemCondition": null,
+                    "Condition": null,
+                    "Season": null,
+                    "Chance": 1,
+                    "PreviousItemId": null,
+                    "DaysUntilReady": 7,
+                    "DaysUntilReadyModifiers": null,
+                    "DaysUntilReadyModifierMode": 0
+                }
+            ],
+            "ShakeItems": null,
+            "CustomFields": null,
+            "GrowsMoss": false
+        }
+    }
+}

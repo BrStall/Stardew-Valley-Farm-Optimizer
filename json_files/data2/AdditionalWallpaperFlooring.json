@@ -1,0 +1,44 @@
+{
+    "header": {
+        "target": "w",
+        "formatVersion": 5,
+        "hidef": true,
+        "compressed": 128
+    },
+    "readers": [
+        {
+            "type": "Microsoft.Xna.Framework.Content.ListReader`1[[StardewValley.GameData.ModWallpaperOrFlooring, StardewValley.GameData, Version=1.6.8.24119, Culture=neutral, PublicKeyToken=null]]",
+            "version": 0
+        },
+        {
+            "type": "Microsoft.Xna.Framework.Content.ReflectiveReader`1[[StardewValley.GameData.ModWallpaperOrFlooring, StardewValley.GameData, Version=1.6.8.24119, Culture=neutral, PublicKeyToken=null]]",
+            "version": 0
+        },
+        {
+            "type": "Microsoft.Xna.Framework.Content.StringReader",
+            "version": 0
+        },
+        {
+            "type": "Microsoft.Xna.Framework.Content.BooleanReader",
+            "version": 0
+        },
+        {
+            "type": "Microsoft.Xna.Framework.Content.Int32Reader",
+            "version": 0
+        }
+    ],
+    "content": [
+        {
+            "ID": "MoreWalls",
+            "Texture": "Maps/wallpapers_2",
+            "IsFlooring": false,
+            "Count": 26
+        },
+        {
+            "ID": "MoreFloors",
+            "Texture": "Maps/floors_2",
+            "IsFlooring": true,
+            "Count": 9
+        }
+    ]
+}

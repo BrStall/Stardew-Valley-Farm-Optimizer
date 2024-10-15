@@ -1,0 +1,136 @@
+{
+    "header": {
+        "target": "w",
+        "formatVersion": 5,
+        "hidef": true,
+        "compressed": 128
+    },
+    "readers": [
+        {
+            "type": "Microsoft.Xna.Framework.Content.DictionaryReader`2[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[StardewValley.GameData.Fences.FenceData, StardewValley.GameData, Version=1.6.8.24119, Culture=neutral, PublicKeyToken=null]]",
+            "version": 0
+        },
+        {
+            "type": "Microsoft.Xna.Framework.Content.StringReader",
+            "version": 0
+        },
+        {
+            "type": "Microsoft.Xna.Framework.Content.ReflectiveReader`1[[StardewValley.GameData.Fences.FenceData, StardewValley.GameData, Version=1.6.8.24119, Culture=neutral, PublicKeyToken=null]]",
+            "version": 0
+        },
+        {
+            "type": "Microsoft.Xna.Framework.Content.Int32Reader",
+            "version": 0
+        },
+        {
+            "type": "Microsoft.Xna.Framework.Content.SingleReader",
+            "version": 0
+        },
+        {
+            "type": "Microsoft.Xna.Framework.Content.ListReader`1[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]",
+            "version": 0
+        },
+        {
+            "type": "Microsoft.Xna.Framework.Content.Vector2Reader",
+            "version": 0
+        }
+    ],
+    "content": {
+        "298": {
+            "Health": 280,
+            "RepairHealthAdjustmentMinimum": -20,
+            "RepairHealthAdjustmentMaximum": 20,
+            "Texture": "LooseSprites\\Fence5",
+            "PlacementSound": "axe",
+            "RemovalSound": "axchop",
+            "RemovalToolIds": [],
+            "RemovalToolTypes": [
+                "StardewValley.Tools.Axe"
+            ],
+            "RemovalDebrisType": 12,
+            "HeldObjectDrawOffset": {
+                "x": 0,
+                "y": -20
+            },
+            "LeftEndHeldObjectDrawX": -1,
+            "RightEndHeldObjectDrawX": 0
+        },
+        "322": {
+            "Health": 28,
+            "RepairHealthAdjustmentMinimum": -5,
+            "RepairHealthAdjustmentMaximum": 5,
+            "Texture": "LooseSprites\\Fence1",
+            "PlacementSound": "axe",
+            "RemovalSound": "axchop",
+            "RemovalToolIds": [],
+            "RemovalToolTypes": [
+                "StardewValley.Tools.Axe"
+            ],
+            "RemovalDebrisType": 12,
+            "HeldObjectDrawOffset": {
+                "x": 0,
+                "y": -20
+            },
+            "LeftEndHeldObjectDrawX": -1,
+            "RightEndHeldObjectDrawX": 0
+        },
+        "323": {
+            "Health": 60,
+            "RepairHealthAdjustmentMinimum": -5,
+            "RepairHealthAdjustmentMaximum": 6,
+            "Texture": "LooseSprites\\Fence2",
+            "PlacementSound": "stoneStep",
+            "RemovalSound": "hammer",
+            "RemovalToolIds": [],
+            "RemovalToolTypes": [
+                "StardewValley.Tools.Pickaxe"
+            ],
+            "RemovalDebrisType": 14,
+            "HeldObjectDrawOffset": {
+                "x": 0,
+                "y": -16
+            },
+            "LeftEndHeldObjectDrawX": 0,
+            "RightEndHeldObjectDrawX": -1
+        },
+        "324": {
+            "Health": 125,
+            "RepairHealthAdjustmentMinimum": -5,
+            "RepairHealthAdjustmentMaximum": 7,
+            "Texture": "LooseSprites\\Fence3",
+            "PlacementSound": "hammer",
+            "RemovalSound": "hammer",
+            "RemovalToolIds": [],
+            "RemovalToolTypes": [
+                "StardewValley.Tools.Pickaxe"
+            ],
+            "RemovalDebrisType": 14,
+            "HeldObjectDrawOffset": {
+                "x": -0.5,
+                "y": -22
+            },
+            "LeftEndHeldObjectDrawX": -2.5,
+            "RightEndHeldObjectDrawX": 1.5
+        },
+        "325": {
+            "Health": 100,
+            "RepairHealthAdjustmentMinimum": 0,
+            "RepairHealthAdjustmentMaximum": 0,
+            "Texture": "LooseSprites\\Fence1",
+            "PlacementSound": "axe",
+            "RemovalSound": "axchop",
+            "RemovalToolIds": [],
+            "RemovalToolTypes": [
+                "StardewValley.Tools.Axe",
+                "StardewValley.Tools.Pickaxe"
+            ],
+            "RemovalDebrisType": 12,
+            "HeldObjectDrawOffset": {
+                "x": 0,
+                "y": -20
+            },
+            "LeftEndHeldObjectDrawX": -1,
+            "RightEndHeldObjectDrawX": 0
+        }
+    }
+}

@@ -1,0 +1,384 @@
+{
+    "header": {
+        "target": "w",
+        "formatVersion": 5,
+        "hidef": true,
+        "compressed": 128
+    },
+    "readers": [
+        {
+            "type": "Microsoft.Xna.Framework.Content.DictionaryReader`2[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[StardewValley.GameData.FruitTrees.FruitTreeData, StardewValley.GameData, Version=1.6.8.24119, Culture=neutral, PublicKeyToken=null]]",
+            "version": 0
+        },
+        {
+            "type": "Microsoft.Xna.Framework.Content.StringReader",
+            "version": 0
+        },
+        {
+            "type": "Microsoft.Xna.Framework.Content.ReflectiveReader`1[[StardewValley.GameData.FruitTrees.FruitTreeData, StardewValley.GameData, Version=1.6.8.24119, Culture=neutral, PublicKeyToken=null]]",
+            "version": 0
+        },
+        {
+            "type": "Microsoft.Xna.Framework.Content.ListReader`1[[StardewValley.Season, StardewValley.GameData, Version=1.6.8.24119, Culture=neutral, PublicKeyToken=null]]",
+            "version": 0
+        },
+        {
+            "type": "Microsoft.Xna.Framework.Content.EnumReader`1[[StardewValley.Season, StardewValley.GameData, Version=1.6.8.24119, Culture=neutral, PublicKeyToken=null]]",
+            "version": 0
+        },
+        {
+            "type": "Microsoft.Xna.Framework.Content.Int32Reader",
+            "version": 0
+        },
+        {
+            "type": "Microsoft.Xna.Framework.Content.ListReader`1[[StardewValley.GameData.FruitTrees.FruitTreeFruitData, StardewValley.GameData, Version=1.6.8.24119, Culture=neutral, PublicKeyToken=null]]",
+            "version": 0
+        },
+        {
+            "type": "Microsoft.Xna.Framework.Content.ReflectiveReader`1[[StardewValley.GameData.FruitTrees.FruitTreeFruitData, StardewValley.GameData, Version=1.6.8.24119, Culture=neutral, PublicKeyToken=null]]",
+            "version": 0
+        },
+        {
+            "type": "Microsoft.Xna.Framework.Content.ReflectiveReader`1[[StardewValley.GameData.GenericSpawnItemDataWithCondition, StardewValley.GameData, Version=1.6.8.24119, Culture=neutral, PublicKeyToken=null]]",
+            "version": 0
+        },
+        {
+            "type": "Microsoft.Xna.Framework.Content.ReflectiveReader`1[[StardewValley.GameData.GenericSpawnItemData, StardewValley.GameData, Version=1.6.8.24119, Culture=neutral, PublicKeyToken=null]]",
+            "version": 0
+        },
+        {
+            "type": "Microsoft.Xna.Framework.Content.ListReader`1[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]",
+            "version": 0
+        },
+        {
+            "type": "Microsoft.Xna.Framework.Content.NullableReader`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]",
+            "version": 0
+        },
+        {
+            "type": "Microsoft.Xna.Framework.Content.BooleanReader",
+            "version": 0
+        },
+        {
+            "type": "Microsoft.Xna.Framework.Content.ListReader`1[[StardewValley.GameData.QuantityModifier, StardewValley.GameData, Version=1.6.8.24119, Culture=neutral, PublicKeyToken=null]]",
+            "version": 0
+        },
+        {
+            "type": "Microsoft.Xna.Framework.Content.ReflectiveReader`1[[StardewValley.GameData.QuantityModifier, StardewValley.GameData, Version=1.6.8.24119, Culture=neutral, PublicKeyToken=null]]",
+            "version": 0
+        },
+        {
+            "type": "Microsoft.Xna.Framework.Content.EnumReader`1[[StardewValley.GameData.QuantityModifier+ModificationType, StardewValley.GameData, Version=1.6.8.24119, Culture=neutral, PublicKeyToken=null]]",
+            "version": 0
+        },
+        {
+            "type": "Microsoft.Xna.Framework.Content.SingleReader",
+            "version": 0
+        },
+        {
+            "type": "Microsoft.Xna.Framework.Content.ListReader`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]",
+            "version": 0
+        },
+        {
+            "type": "Microsoft.Xna.Framework.Content.EnumReader`1[[StardewValley.GameData.QuantityModifier+QuantityModifierMode, StardewValley.GameData, Version=1.6.8.24119, Culture=neutral, PublicKeyToken=null]]",
+            "version": 0
+        },
+        {
+            "type": "Microsoft.Xna.Framework.Content.DictionaryReader`2[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]",
+            "version": 0
+        },
+        {
+            "type": "Microsoft.Xna.Framework.Content.NullableReader`1[[StardewValley.Season, StardewValley.GameData, Version=1.6.8.24119, Culture=neutral, PublicKeyToken=null]]",
+            "version": 0
+        },
+        {
+            "type": "Microsoft.Xna.Framework.Content.ListReader`1[[StardewValley.GameData.PlantableRule, StardewValley.GameData, Version=1.6.8.24119, Culture=neutral, PublicKeyToken=null]]",
+            "version": 0
+        },
+        {
+            "type": "Microsoft.Xna.Framework.Content.ReflectiveReader`1[[StardewValley.GameData.PlantableRule, StardewValley.GameData, Version=1.6.8.24119, Culture=neutral, PublicKeyToken=null]]",
+            "version": 0
+        },
+        {
+            "type": "Microsoft.Xna.Framework.Content.EnumReader`1[[StardewValley.GameData.PlantableRuleContext, StardewValley.GameData, Version=1.6.8.24119, Culture=neutral, PublicKeyToken=null]]",
+            "version": 0
+        },
+        {
+            "type": "Microsoft.Xna.Framework.Content.EnumReader`1[[StardewValley.GameData.PlantableResult, StardewValley.GameData, Version=1.6.8.24119, Culture=neutral, PublicKeyToken=null]]",
+            "version": 0
+        }
+    ],
+    "content": {
+        "69": {
+            "DisplayName": "[LocalizedText Strings\\Objects:Banana_Name]",
+            "Seasons": [
+                1
+            ],
+            "Fruit": [
+                {
+                    "Id": "Default",
+                    "ItemId": "(O)91",
+                    "RandomItemId": null,
+                    "MaxItems": null,
+                    "MinStack": -1,
+                    "MaxStack": -1,
+                    "Quality": -1,
+                    "ObjectInternalName": null,
+                    "ObjectDisplayName": null,
+                    "ToolUpgradeLevel": -1,
+                    "IsRecipe": false,
+                    "StackModifiers": null,
+                    "StackModifierMode": 0,
+                    "QualityModifiers": null,
+                    "QualityModifierMode": 0,
+                    "ModData": null,
+                    "PerItemCondition": null,
+                    "Condition": null,
+                    "Season": null,
+                    "Chance": 1
+                }
+            ],
+            "Texture": "TileSheets\\fruitTrees",
+            "TextureSpriteRow": 7,
+            "CustomFields": null,
+            "PlantableLocationRules": null
+        },
+        "628": {
+            "DisplayName": "[LocalizedText Strings\\Objects:Cherry_Name]",
+            "Seasons": [
+                0
+            ],
+            "Fruit": [
+                {
+                    "Id": "Default",
+                    "ItemId": "(O)638",
+                    "RandomItemId": null,
+                    "MaxItems": null,
+                    "MinStack": -1,
+                    "MaxStack": -1,
+                    "Quality": -1,
+                    "ObjectInternalName": null,
+                    "ObjectDisplayName": null,
+                    "ToolUpgradeLevel": -1,
+                    "IsRecipe": false,
+                    "StackModifiers": null,
+                    "StackModifierMode": 0,
+                    "QualityModifiers": null,
+                    "QualityModifierMode": 0,
+                    "ModData": null,
+                    "PerItemCondition": null,
+                    "Condition": null,
+                    "Season": null,
+                    "Chance": 1
+                }
+            ],
+            "Texture": "TileSheets\\fruitTrees",
+            "TextureSpriteRow": 0,
+            "CustomFields": null,
+            "PlantableLocationRules": null
+        },
+        "629": {
+            "DisplayName": "[LocalizedText Strings\\Objects:Apricot_Name]",
+            "Seasons": [
+                0
+            ],
+            "Fruit": [
+                {
+                    "Id": "Default",
+                    "ItemId": "(O)634",
+                    "RandomItemId": null,
+                    "MaxItems": null,
+                    "MinStack": -1,
+                    "MaxStack": -1,
+                    "Quality": -1,
+                    "ObjectInternalName": null,
+                    "ObjectDisplayName": null,
+                    "ToolUpgradeLevel": -1,
+                    "IsRecipe": false,
+                    "StackModifiers": null,
+                    "StackModifierMode": 0,
+                    "QualityModifiers": null,
+                    "QualityModifierMode": 0,
+                    "ModData": null,
+                    "PerItemCondition": null,
+                    "Condition": null,
+                    "Season": null,
+                    "Chance": 1
+                }
+            ],
+            "Texture": "TileSheets\\fruitTrees",
+            "TextureSpriteRow": 1,
+            "CustomFields": null,
+            "PlantableLocationRules": null
+        },
+        "630": {
+            "DisplayName": "[LocalizedText Strings\\Objects:Orange_Name]",
+            "Seasons": [
+                1
+            ],
+            "Fruit": [
+                {
+                    "Id": "Default",
+                    "ItemId": "(O)635",
+                    "RandomItemId": null,
+                    "MaxItems": null,
+                    "MinStack": -1,
+                    "MaxStack": -1,
+                    "Quality": -1,
+                    "ObjectInternalName": null,
+                    "ObjectDisplayName": null,
+                    "ToolUpgradeLevel": -1,
+                    "IsRecipe": false,
+                    "StackModifiers": null,
+                    "StackModifierMode": 0,
+                    "QualityModifiers": null,
+                    "QualityModifierMode": 0,
+                    "ModData": null,
+                    "PerItemCondition": null,
+                    "Condition": null,
+                    "Season": null,
+                    "Chance": 1
+                }
+            ],
+            "Texture": "TileSheets\\fruitTrees",
+            "TextureSpriteRow": 2,
+            "CustomFields": null,
+            "PlantableLocationRules": null
+        },
+        "631": {
+            "DisplayName": "[LocalizedText Strings\\Objects:Peach_Name]",
+            "Seasons": [
+                1
+            ],
+            "Fruit": [
+                {
+                    "Id": "Default",
+                    "ItemId": "(O)636",
+                    "RandomItemId": null,
+                    "MaxItems": null,
+                    "MinStack": -1,
+                    "MaxStack": -1,
+                    "Quality": -1,
+                    "ObjectInternalName": null,
+                    "ObjectDisplayName": null,
+                    "ToolUpgradeLevel": -1,
+                    "IsRecipe": false,
+                    "StackModifiers": null,
+                    "StackModifierMode": 0,
+                    "QualityModifiers": null,
+                    "QualityModifierMode": 0,
+                    "ModData": null,
+                    "PerItemCondition": null,
+                    "Condition": null,
+                    "Season": null,
+                    "Chance": 1
+                }
+            ],
+            "Texture": "TileSheets\\fruitTrees",
+            "TextureSpriteRow": 3,
+            "CustomFields": null,
+            "PlantableLocationRules": null
+        },
+        "632": {
+            "DisplayName": "[LocalizedText Strings\\Objects:Pomegranate_Name]",
+            "Seasons": [
+                2
+            ],
+            "Fruit": [
+                {
+                    "Id": "Default",
+                    "ItemId": "(O)637",
+                    "RandomItemId": null,
+                    "MaxItems": null,
+                    "MinStack": -1,
+                    "MaxStack": -1,
+                    "Quality": -1,
+                    "ObjectInternalName": null,
+                    "ObjectDisplayName": null,
+                    "ToolUpgradeLevel": -1,
+                    "IsRecipe": false,
+                    "StackModifiers": null,
+                    "StackModifierMode": 0,
+                    "QualityModifiers": null,
+                    "QualityModifierMode": 0,
+                    "ModData": null,
+                    "PerItemCondition": null,
+                    "Condition": null,
+                    "Season": null,
+                    "Chance": 1
+                }
+            ],
+            "Texture": "TileSheets\\fruitTrees",
+            "TextureSpriteRow": 4,
+            "CustomFields": null,
+            "PlantableLocationRules": null
+        },
+        "633": {
+            "DisplayName": "[LocalizedText Strings\\Objects:Apple_Name]",
+            "Seasons": [
+                2
+            ],
+            "Fruit": [
+                {
+                    "Id": "Default",
+                    "ItemId": "(O)613",
+                    "RandomItemId": null,
+                    "MaxItems": null,
+                    "MinStack": -1,
+                    "MaxStack": -1,
+                    "Quality": -1,
+                    "ObjectInternalName": null,
+                    "ObjectDisplayName": null,
+                    "ToolUpgradeLevel": -1,
+                    "IsRecipe": false,
+                    "StackModifiers": null,
+                    "StackModifierMode": 0,
+                    "QualityModifiers": null,
+                    "QualityModifierMode": 0,
+                    "ModData": null,
+                    "PerItemCondition": null,
+                    "Condition": null,
+                    "Season": null,
+                    "Chance": 1
+                }
+            ],
+            "Texture": "TileSheets\\fruitTrees",
+            "TextureSpriteRow": 5,
+            "CustomFields": null,
+            "PlantableLocationRules": null
+        },
+        "835": {
+            "DisplayName": "[LocalizedText Strings\\Objects:Mango_Name]",
+            "Seasons": [
+                1
+            ],
+            "Fruit": [
+                {
+                    "Id": "Default",
+                    "ItemId": "(O)834",
+                    "RandomItemId": null,
+                    "MaxItems": null,
+                    "MinStack": -1,
+                    "MaxStack": -1,
+                    "Quality": -1,
+                    "ObjectInternalName": null,
+                    "ObjectDisplayName": null,
+                    "ToolUpgradeLevel": -1,
+                    "IsRecipe": false,
+                    "StackModifiers": null,
+                    "StackModifierMode": 0,
+                    "QualityModifiers": null,
+                    "QualityModifierMode": 0,
+                    "ModData": null,
+                    "PerItemCondition": null,
+                    "Condition": null,
+                    "Season": null,
+                    "Chance": 1
+                }
+            ],
+            "Texture": "TileSheets\\fruitTrees",
+            "TextureSpriteRow": 8,
+            "CustomFields": null,
+            "PlantableLocationRules": null
+        }
+    }
+}

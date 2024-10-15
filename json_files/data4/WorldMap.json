@@ -1,0 +1,3124 @@
+{
+    "header": {
+        "target": "w",
+        "formatVersion": 5,
+        "hidef": true,
+        "compressed": 128
+    },
+    "readers": [
+        {
+            "type": "Microsoft.Xna.Framework.Content.DictionaryReader`2[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[StardewValley.GameData.WorldMaps.WorldMapRegionData, StardewValley.GameData, Version=1.6.8.24119, Culture=neutral, PublicKeyToken=null]]",
+            "version": 0
+        },
+        {
+            "type": "Microsoft.Xna.Framework.Content.StringReader",
+            "version": 0
+        },
+        {
+            "type": "Microsoft.Xna.Framework.Content.ReflectiveReader`1[[StardewValley.GameData.WorldMaps.WorldMapRegionData, StardewValley.GameData, Version=1.6.8.24119, Culture=neutral, PublicKeyToken=null]]",
+            "version": 0
+        },
+        {
+            "type": "Microsoft.Xna.Framework.Content.ListReader`1[[StardewValley.GameData.WorldMaps.WorldMapTextureData, StardewValley.GameData, Version=1.6.8.24119, Culture=neutral, PublicKeyToken=null]]",
+            "version": 0
+        },
+        {
+            "type": "Microsoft.Xna.Framework.Content.ReflectiveReader`1[[StardewValley.GameData.WorldMaps.WorldMapTextureData, StardewValley.GameData, Version=1.6.8.24119, Culture=neutral, PublicKeyToken=null]]",
+            "version": 0
+        },
+        {
+            "type": "Microsoft.Xna.Framework.Content.RectangleReader",
+            "version": 0
+        },
+        {
+            "type": "Microsoft.Xna.Framework.Content.DictionaryReader`2[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]",
+            "version": 0
+        },
+        {
+            "type": "Microsoft.Xna.Framework.Content.ListReader`1[[StardewValley.GameData.WorldMaps.WorldMapAreaData, StardewValley.GameData, Version=1.6.8.24119, Culture=neutral, PublicKeyToken=null]]",
+            "version": 0
+        },
+        {
+            "type": "Microsoft.Xna.Framework.Content.ReflectiveReader`1[[StardewValley.GameData.WorldMaps.WorldMapAreaData, StardewValley.GameData, Version=1.6.8.24119, Culture=neutral, PublicKeyToken=null]]",
+            "version": 0
+        },
+        {
+            "type": "Microsoft.Xna.Framework.Content.ListReader`1[[StardewValley.GameData.WorldMaps.WorldMapTooltipData, StardewValley.GameData, Version=1.6.8.24119, Culture=neutral, PublicKeyToken=null]]",
+            "version": 0
+        },
+        {
+            "type": "Microsoft.Xna.Framework.Content.ReflectiveReader`1[[StardewValley.GameData.WorldMaps.WorldMapTooltipData, StardewValley.GameData, Version=1.6.8.24119, Culture=neutral, PublicKeyToken=null]]",
+            "version": 0
+        },
+        {
+            "type": "Microsoft.Xna.Framework.Content.ListReader`1[[StardewValley.GameData.WorldMaps.WorldMapAreaPositionData, StardewValley.GameData, Version=1.6.8.24119, Culture=neutral, PublicKeyToken=null]]",
+            "version": 0
+        },
+        {
+            "type": "Microsoft.Xna.Framework.Content.ReflectiveReader`1[[StardewValley.GameData.WorldMaps.WorldMapAreaPositionData, StardewValley.GameData, Version=1.6.8.24119, Culture=neutral, PublicKeyToken=null]]",
+            "version": 0
+        },
+        {
+            "type": "Microsoft.Xna.Framework.Content.ListReader`1[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]",
+            "version": 0
+        },
+        {
+            "type": "Microsoft.Xna.Framework.Content.NullableReader`1[[Microsoft.Xna.Framework.Rectangle, Microsoft.Xna.Framework, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553]]",
+            "version": 0
+        },
+        {
+            "type": "Microsoft.Xna.Framework.Content.ListReader`1[[StardewValley.GameData.WorldMaps.WorldMapAreaPositionScrollTextZoneData, StardewValley.GameData, Version=1.6.8.24119, Culture=neutral, PublicKeyToken=null]]",
+            "version": 0
+        },
+        {
+            "type": "Microsoft.Xna.Framework.Content.ReflectiveReader`1[[StardewValley.GameData.WorldMaps.WorldMapAreaPositionScrollTextZoneData, StardewValley.GameData, Version=1.6.8.24119, Culture=neutral, PublicKeyToken=null]]",
+            "version": 0
+        }
+    ],
+    "content": {
+        "Valley": {
+            "BaseTexture": [
+                {
+                    "Id": "BaseMap",
+                    "Condition": null,
+                    "Texture": "LooseSprites\\map",
+                    "SourceRect": {
+                        "x": 0,
+                        "y": 0,
+                        "width": 300,
+                        "height": 180
+                    },
+                    "MapPixelArea": {
+                        "x": 0,
+                        "y": 0,
+                        "width": 300,
+                        "height": 180
+                    }
+                }
+            ],
+            "MapNeighborIdAliases": {
+                "Beach/FishShop": "Beach/FishShop_DefaultHours, Beach/FishShop_ExtendedHours",
+                "Town/CommunityCenter": "Town/CommunityCenter, Town/MovieTheater_JojaRoute",
+                "Town/JojaMart": "Town/JojaMart_Open, Town/JojaMart_Abandoned, Town/MovieTheater_CommunityCenterRoute",
+                "Town/PierreStore": "Town/PierreStore_InitialHours, Town/PierreStore_ExtendedHours",
+                "Town/Trailer": "Town/Trailer, Town/PamHouse"
+            },
+            "MapAreas": [
+                {
+                    "Id": "Backwoods",
+                    "Condition": null,
+                    "PixelArea": {
+                        "x": 82,
+                        "y": 38,
+                        "width": 29,
+                        "height": 24
+                    },
+                    "ScrollText": "[LocalizedText Strings\\StringsFromCSFiles:MapPage.cs.11065]",
+                    "Textures": [],
+                    "Tooltips": [
+                        {
+                            "Id": "Default",
+                            "Condition": null,
+                            "KnownCondition": null,
+                            "PixelArea": {
+                                "x": 0,
+                                "y": 0,
+                                "width": 0,
+                                "height": 0
+                            },
+                            "Text": "[LocalizedText Strings\\StringsFromCSFiles:MapPage.cs.11065]",
+                            "LeftNeighbor": "Desert/Default",
+                            "RightNeighbor": "Mountain/Carpenter",
+                            "UpNeighbor": "Railroad/Spa",
+                            "DownNeighbor": "Farm/Default"
+                        }
+                    ],
+                    "WorldPositions": [
+                        {
+                            "Id": "Tunnel",
+                            "Condition": null,
+                            "LocationContext": null,
+                            "LocationName": "Tunnel",
+                            "LocationNames": [],
+                            "TileArea": {
+                                "x": 0,
+                                "y": 0,
+                                "width": 0,
+                                "height": 0
+                            },
+                            "ExtendedTileArea": null,
+                            "MapPixelArea": {
+                                "x": 109,
+                                "y": 57,
+                                "width": 1,
+                                "height": 1
+                            },
+                            "ScrollText": null,
+                            "ScrollTextZones": []
+                        },
+                        {
+                            "Id": "Backwoods",
+                            "Condition": null,
+                            "LocationContext": null,
+                            "LocationName": "Backwoods",
+                            "LocationNames": [],
+                            "TileArea": {
+                                "x": 0,
+                                "y": 0,
+                                "width": 0,
+                                "height": 0
+                            },
+                            "ExtendedTileArea": null,
+                            "MapPixelArea": {
+                                "x": 0,
+                                "y": 0,
+                                "width": 0,
+                                "height": 0
+                            },
+                            "ScrollText": null,
+                            "ScrollTextZones": []
+                        }
+                    ],
+                    "CustomFields": null
+                },
+                {
+                    "Id": "Beach",
+                    "Condition": null,
+                    "PixelArea": {
+                        "x": 186,
+                        "y": 137,
+                        "width": 57,
+                        "height": 31
+                    },
+                    "ScrollText": "[LocalizedText Strings\\StringsFromCSFiles:MapPage.cs.11174]",
+                    "Textures": [],
+                    "Tooltips": [
+                        {
+                            "Id": "ElliottCabin",
+                            "Condition": null,
+                            "KnownCondition": null,
+                            "PixelArea": {
+                                "x": 209,
+                                "y": 137,
+                                "width": 6,
+                                "height": 8
+                            },
+                            "Text": "[LocalizedText Strings\\StringsFromCSFiles:MapPage.cs.11088]",
+                            "LeftNeighbor": "",
+                            "RightNeighbor": "",
+                            "UpNeighbor": "Town/ManorHouse",
+                            "DownNeighbor": "Beach/FishShop"
+                        },
+                        {
+                            "Id": "LonelyStone",
+                            "Condition": null,
+                            "KnownCondition": null,
+                            "PixelArea": {
+                                "x": 181,
+                                "y": 152,
+                                "width": 9,
+                                "height": 8
+                            },
+                            "Text": "[LocalizedText Strings\\StringsFromCSFiles:MapPage.cs.11122]",
+                            "LeftNeighbor": "",
+                            "RightNeighbor": "Beach/FishShop",
+                            "UpNeighbor": "Beach/FishShop",
+                            "DownNeighbor": ""
+                        },
+                        {
+                            "Id": "FishShop_DefaultHours",
+                            "Condition": "!PLAYER_HAS_MAIL Host willyHours",
+                            "KnownCondition": null,
+                            "PixelArea": {
+                                "x": 200,
+                                "y": 150,
+                                "width": 9,
+                                "height": 10
+                            },
+                            "Text": "\n                  [LocalizedText Strings\\StringsFromCSFiles:MapPage.cs.11107]\n                  [LocalizedText Strings\\StringsFromCSFiles:MapPage.cs.11108]\n                ",
+                            "LeftNeighbor": "Beach/LonelyStone",
+                            "RightNeighbor": "GingerIsland/Default, ignore",
+                            "UpNeighbor": "Beach/ElliottCabin",
+                            "DownNeighbor": "Beach/LonelyStone"
+                        },
+                        {
+                            "Id": "FishShop_ExtendedHours",
+                            "Condition": "PLAYER_HAS_MAIL Host willyHours",
+                            "KnownCondition": null,
+                            "PixelArea": {
+                                "x": 200,
+                                "y": 150,
+                                "width": 9,
+                                "height": 10
+                            },
+                            "Text": "\n                  [LocalizedText Strings\\StringsFromCSFiles:MapPage.cs.11107]\n                  [LocalizedText Strings\\StringsFromCSFiles:MapPage.cs.11108_newHours]\n                ",
+                            "LeftNeighbor": "Beach/LonelyStone",
+                            "RightNeighbor": "GingerIsland/Default, ignore",
+                            "UpNeighbor": "Beach/ElliottCabin",
+                            "DownNeighbor": "Beach/LonelyStone"
+                        }
+                    ],
+                    "WorldPositions": [
+                        {
+                            "Id": "ElliottHouse",
+                            "Condition": null,
+                            "LocationContext": null,
+                            "LocationName": "ElliottHouse",
+                            "LocationNames": [],
+                            "TileArea": {
+                                "x": 0,
+                                "y": 0,
+                                "width": 0,
+                                "height": 0
+                            },
+                            "ExtendedTileArea": null,
+                            "MapPixelArea": {
+                                "x": 211,
+                                "y": 140,
+                                "width": 2,
+                                "height": 3
+                            },
+                            "ScrollText": "[LocalizedText Strings\\StringsFromCSFiles:MapPage.cs.11088]",
+                            "ScrollTextZones": []
+                        },
+                        {
+                            "Id": "FishShop",
+                            "Condition": null,
+                            "LocationContext": null,
+                            "LocationName": "FishShop",
+                            "LocationNames": [],
+                            "TileArea": {
+                                "x": 0,
+                                "y": 0,
+                                "width": 0,
+                                "height": 0
+                            },
+                            "ExtendedTileArea": null,
+                            "MapPixelArea": {
+                                "x": 202,
+                                "y": 155,
+                                "width": 5,
+                                "height": 3
+                            },
+                            "ScrollText": "[LocalizedText Strings\\StringsFromCSFiles:MapPage.cs.11107]",
+                            "ScrollTextZones": []
+                        },
+                        {
+                            "Id": "Beach",
+                            "Condition": null,
+                            "LocationContext": null,
+                            "LocationName": "Beach",
+                            "LocationNames": [],
+                            "TileArea": {
+                                "x": 0,
+                                "y": 0,
+                                "width": 0,
+                                "height": 0
+                            },
+                            "ExtendedTileArea": null,
+                            "MapPixelArea": {
+                                "x": 0,
+                                "y": 0,
+                                "width": 0,
+                                "height": 0
+                            },
+                            "ScrollText": null,
+                            "ScrollTextZones": []
+                        }
+                    ],
+                    "CustomFields": null
+                },
+                {
+                    "Id": "BeachNightMarket",
+                    "Condition": null,
+                    "PixelArea": {
+                        "x": 186,
+                        "y": 137,
+                        "width": 57,
+                        "height": 31
+                    },
+                    "ScrollText": null,
+                    "Textures": [],
+                    "Tooltips": [],
+                    "WorldPositions": [
+                        {
+                            "Id": "Submarine",
+                            "Condition": null,
+                            "LocationContext": null,
+                            "LocationName": "Submarine",
+                            "LocationNames": [],
+                            "TileArea": {
+                                "x": 0,
+                                "y": 0,
+                                "width": 0,
+                                "height": 0
+                            },
+                            "ExtendedTileArea": null,
+                            "MapPixelArea": {
+                                "x": 181,
+                                "y": 158,
+                                "width": 9,
+                                "height": 8
+                            },
+                            "ScrollText": null,
+                            "ScrollTextZones": []
+                        },
+                        {
+                            "Id": "MermaidHouse",
+                            "Condition": null,
+                            "LocationContext": null,
+                            "LocationName": "MermaidHouse",
+                            "LocationNames": [],
+                            "TileArea": {
+                                "x": 0,
+                                "y": 0,
+                                "width": 0,
+                                "height": 0
+                            },
+                            "ExtendedTileArea": null,
+                            "MapPixelArea": {
+                                "x": 213,
+                                "y": 155,
+                                "width": 5,
+                                "height": 3
+                            },
+                            "ScrollText": null,
+                            "ScrollTextZones": []
+                        },
+                        {
+                            "Id": "BeachNightMarket",
+                            "Condition": null,
+                            "LocationContext": null,
+                            "LocationName": "BeachNightMarket",
+                            "LocationNames": [],
+                            "TileArea": {
+                                "x": 0,
+                                "y": 0,
+                                "width": 0,
+                                "height": 0
+                            },
+                            "ExtendedTileArea": null,
+                            "MapPixelArea": {
+                                "x": 0,
+                                "y": 0,
+                                "width": 0,
+                                "height": 0
+                            },
+                            "ScrollText": null,
+                            "ScrollTextZones": []
+                        }
+                    ],
+                    "CustomFields": null
+                },
+                {
+                    "Id": "BusStop",
+                    "Condition": null,
+                    "PixelArea": {
+                        "x": 115,
+                        "y": 50,
+                        "width": 30,
+                        "height": 29
+                    },
+                    "ScrollText": "[LocalizedText Strings\\StringsFromCSFiles:MapPage.cs.11066]",
+                    "Textures": [],
+                    "Tooltips": [
+                        {
+                            "Id": "Default",
+                            "Condition": null,
+                            "KnownCondition": null,
+                            "PixelArea": {
+                                "x": 0,
+                                "y": 0,
+                                "width": 0,
+                                "height": 0
+                            },
+                            "Text": "[LocalizedText Strings\\StringsFromCSFiles:MapPage.cs.11066]",
+                            "LeftNeighbor": "Farm/Default",
+                            "RightNeighbor": "Town/Hospital",
+                            "UpNeighbor": "Backwoods/Default",
+                            "DownNeighbor": "Forest/MarnieRanch"
+                        }
+                    ],
+                    "WorldPositions": [
+                        {
+                            "Id": "BusStop",
+                            "Condition": null,
+                            "LocationContext": null,
+                            "LocationName": "BusStop",
+                            "LocationNames": [],
+                            "TileArea": {
+                                "x": 0,
+                                "y": 0,
+                                "width": 0,
+                                "height": 0
+                            },
+                            "ExtendedTileArea": null,
+                            "MapPixelArea": {
+                                "x": 0,
+                                "y": 0,
+                                "width": 0,
+                                "height": 0
+                            },
+                            "ScrollText": null,
+                            "ScrollTextZones": []
+                        }
+                    ],
+                    "CustomFields": null
+                },
+                {
+                    "Id": "Desert",
+                    "Condition": null,
+                    "PixelArea": {
+                        "x": 0,
+                        "y": 0,
+                        "width": 73,
+                        "height": 38
+                    },
+                    "ScrollText": null,
+                    "Textures": [],
+                    "Tooltips": [
+                        {
+                            "Id": "Default",
+                            "Condition": null,
+                            "KnownCondition": "PLAYER_HAS_MAIL Host ccVault",
+                            "PixelArea": {
+                                "x": 0,
+                                "y": 0,
+                                "width": 0,
+                                "height": 0
+                            },
+                            "Text": "[LocalizedText Strings\\StringsFromCSFiles:MapPage.cs.11062]",
+                            "LeftNeighbor": "",
+                            "RightNeighbor": "Backwoods/Default",
+                            "UpNeighbor": "",
+                            "DownNeighbor": "SecretWoods/Default"
+                        }
+                    ],
+                    "WorldPositions": [
+                        {
+                            "Id": "Desert",
+                            "Condition": null,
+                            "LocationContext": null,
+                            "LocationName": null,
+                            "LocationNames": [
+                                "Desert",
+                                "SkullCave",
+                                "SandyHouse",
+                                "SandyShop",
+                                "Club",
+                                "DesertFestival"
+                            ],
+                            "TileArea": {
+                                "x": 0,
+                                "y": 0,
+                                "width": 0,
+                                "height": 0
+                            },
+                            "ExtendedTileArea": null,
+                            "MapPixelArea": {
+                                "x": 36,
+                                "y": 20,
+                                "width": 1,
+                                "height": 1
+                            },
+                            "ScrollText": null,
+                            "ScrollTextZones": []
+                        }
+                    ],
+                    "CustomFields": null
+                },
+                {
+                    "Id": "Farm",
+                    "Condition": null,
+                    "PixelArea": {
+                        "x": 68,
+                        "y": 62,
+                        "width": 50,
+                        "height": 34
+                    },
+                    "ScrollText": "[LocalizedText Strings\\StringsFromCSFiles:MapPage.cs.11064 [EscapedText [FarmName]]]",
+                    "Textures": [
+                        {
+                            "Id": "Beach",
+                            "Condition": "FARM_TYPE Beach",
+                            "Texture": "LooseSprites\\map",
+                            "SourceRect": {
+                                "x": 131,
+                                "y": 302,
+                                "width": 131,
+                                "height": 61
+                            },
+                            "MapPixelArea": {
+                                "x": 0,
+                                "y": 43,
+                                "width": 131,
+                                "height": 61
+                            }
+                        },
+                        {
+                            "Id": "Forest",
+                            "Condition": "FARM_TYPE Forest",
+                            "Texture": "LooseSprites\\map",
+                            "SourceRect": {
+                                "x": 131,
+                                "y": 180,
+                                "width": 131,
+                                "height": 61
+                            },
+                            "MapPixelArea": {
+                                "x": 0,
+                                "y": 43,
+                                "width": 131,
+                                "height": 61
+                            }
+                        },
+                        {
+                            "Id": "FourCorners",
+                            "Condition": "FARM_TYPE FourCorners",
+                            "Texture": "LooseSprites\\map",
+                            "SourceRect": {
+                                "x": 0,
+                                "y": 302,
+                                "width": 131,
+                                "height": 61
+                            },
+                            "MapPixelArea": {
+                                "x": 0,
+                                "y": 43,
+                                "width": 131,
+                                "height": 61
+                            }
+                        },
+                        {
+                            "Id": "Hilltop",
+                            "Condition": "FARM_TYPE Hilltop",
+                            "Texture": "LooseSprites\\map",
+                            "SourceRect": {
+                                "x": 0,
+                                "y": 241,
+                                "width": 131,
+                                "height": 61
+                            },
+                            "MapPixelArea": {
+                                "x": 0,
+                                "y": 43,
+                                "width": 131,
+                                "height": 61
+                            }
+                        },
+                        {
+                            "Id": "Riverlands",
+                            "Condition": "FARM_TYPE Riverland",
+                            "Texture": "LooseSprites\\map",
+                            "SourceRect": {
+                                "x": 0,
+                                "y": 180,
+                                "width": 131,
+                                "height": 61
+                            },
+                            "MapPixelArea": {
+                                "x": 0,
+                                "y": 43,
+                                "width": 131,
+                                "height": 61
+                            }
+                        },
+                        {
+                            "Id": "Wilderness",
+                            "Condition": "FARM_TYPE Wilderness",
+                            "Texture": "LooseSprites\\map",
+                            "SourceRect": {
+                                "x": 131,
+                                "y": 241,
+                                "width": 131,
+                                "height": 61
+                            },
+                            "MapPixelArea": {
+                                "x": 0,
+                                "y": 43,
+                                "width": 131,
+                                "height": 61
+                            }
+                        },
+                        {
+                            "Id": "Custom",
+                            "Condition": "IS_CUSTOM_FARM_TYPE",
+                            "Texture": "MOD_FARM",
+                            "SourceRect": {
+                                "x": 0,
+                                "y": 0,
+                                "width": 131,
+                                "height": 61
+                            },
+                            "MapPixelArea": {
+                                "x": 0,
+                                "y": 43,
+                                "width": 131,
+                                "height": 61
+                            }
+                        }
+                    ],
+                    "Tooltips": [
+                        {
+                            "Id": "Default",
+                            "Condition": null,
+                            "KnownCondition": null,
+                            "PixelArea": {
+                                "x": 0,
+                                "y": 0,
+                                "width": 0,
+                                "height": 0
+                            },
+                            "Text": "[LocalizedText Strings\\StringsFromCSFiles:MapPage.cs.11064 [EscapedText [FarmName]]]",
+                            "LeftNeighbor": "Forest/WizardTower",
+                            "RightNeighbor": "BusStop/Default",
+                            "UpNeighbor": "Backwoods/Default",
+                            "DownNeighbor": "Forest/MarnieRanch"
+                        }
+                    ],
+                    "WorldPositions": [
+                        {
+                            "Id": "FarmCave_FourCorners",
+                            "Condition": "FARM_TYPE FourCorners",
+                            "LocationContext": null,
+                            "LocationName": "FarmCave",
+                            "LocationNames": [],
+                            "TileArea": {
+                                "x": 0,
+                                "y": 0,
+                                "width": 0,
+                                "height": 0
+                            },
+                            "ExtendedTileArea": null,
+                            "MapPixelArea": {
+                                "x": 98,
+                                "y": 63,
+                                "width": 1,
+                                "height": 2
+                            },
+                            "ScrollText": null,
+                            "ScrollTextZones": []
+                        },
+                        {
+                            "Id": "FarmCave",
+                            "Condition": "!FARM_TYPE FourCorners",
+                            "LocationContext": null,
+                            "LocationName": "FarmCave",
+                            "LocationNames": [],
+                            "TileArea": {
+                                "x": 0,
+                                "y": 0,
+                                "width": 0,
+                                "height": 0
+                            },
+                            "ExtendedTileArea": null,
+                            "MapPixelArea": {
+                                "x": 97,
+                                "y": 78,
+                                "width": 1,
+                                "height": 2
+                            },
+                            "ScrollText": null,
+                            "ScrollTextZones": []
+                        },
+                        {
+                            "Id": "Farm",
+                            "Condition": null,
+                            "LocationContext": null,
+                            "LocationName": "Farm",
+                            "LocationNames": [],
+                            "TileArea": {
+                                "x": 0,
+                                "y": 0,
+                                "width": 0,
+                                "height": 0
+                            },
+                            "ExtendedTileArea": null,
+                            "MapPixelArea": {
+                                "x": 0,
+                                "y": 0,
+                                "width": 0,
+                                "height": 0
+                            },
+                            "ScrollText": null,
+                            "ScrollTextZones": []
+                        }
+                    ],
+                    "CustomFields": null
+                },
+                {
+                    "Id": "Forest",
+                    "Condition": null,
+                    "PixelArea": {
+                        "x": 47,
+                        "y": 96,
+                        "width": 76,
+                        "height": 65
+                    },
+                    "ScrollText": "[LocalizedText Strings\\StringsFromCSFiles:MapPage.cs.11186]",
+                    "Textures": [],
+                    "Tooltips": [
+                        {
+                            "Id": "MarnieRanch",
+                            "Condition": null,
+                            "KnownCondition": null,
+                            "PixelArea": {
+                                "x": 97,
+                                "y": 98,
+                                "width": 16,
+                                "height": 11
+                            },
+                            "Text": "\n                  [LocalizedText Strings\\StringsFromCSFiles:MapPage.cs.11068]\n                  [LocalizedText Strings\\StringsFromCSFiles:MapPage.cs.11069]\n                ",
+                            "LeftNeighbor": "Forest/WizardTower",
+                            "RightNeighbor": "Town/SamHouse",
+                            "UpNeighbor": "Farm/Default",
+                            "DownNeighbor": "Forest/LeahCottage"
+                        },
+                        {
+                            "Id": "LeahCottage",
+                            "Condition": null,
+                            "KnownCondition": null,
+                            "PixelArea": {
+                                "x": 109,
+                                "y": 111,
+                                "width": 9,
+                                "height": 7
+                            },
+                            "Text": "[LocalizedText Strings\\StringsFromCSFiles:MapPage.cs.11070]",
+                            "LeftNeighbor": "Forest/WizardTower",
+                            "RightNeighbor": "Town/SamHouse",
+                            "UpNeighbor": "Forest/MarnieRanch",
+                            "DownNeighbor": "Forest/SewerPipe"
+                        },
+                        {
+                            "Id": "WizardTower",
+                            "Condition": null,
+                            "KnownCondition": null,
+                            "PixelArea": {
+                                "x": 47,
+                                "y": 97,
+                                "width": 8,
+                                "height": 15
+                            },
+                            "Text": "[LocalizedText Strings\\StringsFromCSFiles:MapPage.cs.11067]",
+                            "LeftNeighbor": "SecretWoods/Default",
+                            "RightNeighbor": "Forest/MarnieRanch",
+                            "UpNeighbor": "Desert/Default",
+                            "DownNeighbor": "Forest/AbandonedHouse"
+                        },
+                        {
+                            "Id": "AbandonedHouse",
+                            "Condition": null,
+                            "KnownCondition": null,
+                            "PixelArea": {
+                                "x": 65,
+                                "y": 143,
+                                "width": 6,
+                                "height": 5
+                            },
+                            "Text": "[LocalizedText Strings\\StringsFromCSFiles:MapPage.cs.11116]",
+                            "LeftNeighbor": "",
+                            "RightNeighbor": "Forest/SewerPipe",
+                            "UpNeighbor": "Forest/WizardTower",
+                            "DownNeighbor": ""
+                        },
+                        {
+                            "Id": "SewerPipe",
+                            "Condition": null,
+                            "KnownCondition": null,
+                            "PixelArea": {
+                                "x": 103,
+                                "y": 150,
+                                "width": 6,
+                                "height": 9
+                            },
+                            "Text": "[LocalizedText Strings\\StringsFromCSFiles:MapPage.cs.11118]",
+                            "LeftNeighbor": "Forest/AbandonedHouse",
+                            "RightNeighbor": "Beach/ElliottCabin",
+                            "UpNeighbor": "Forest/LeahCottage",
+                            "DownNeighbor": ""
+                        }
+                    ],
+                    "WorldPositions": [
+                        {
+                            "Id": "AnimalShop",
+                            "Condition": null,
+                            "LocationContext": null,
+                            "LocationName": "AnimalShop",
+                            "LocationNames": [],
+                            "TileArea": {
+                                "x": 0,
+                                "y": 0,
+                                "width": 0,
+                                "height": 0
+                            },
+                            "ExtendedTileArea": null,
+                            "MapPixelArea": {
+                                "x": 102,
+                                "y": 102,
+                                "width": 2,
+                                "height": 2
+                            },
+                            "ScrollText": "[LocalizedText Strings\\StringsFromCSFiles:MapPage.cs.11068]",
+                            "ScrollTextZones": []
+                        },
+                        {
+                            "Id": "LeahHouse",
+                            "Condition": null,
+                            "LocationContext": null,
+                            "LocationName": "LeahHouse",
+                            "LocationNames": [],
+                            "TileArea": {
+                                "x": 0,
+                                "y": 0,
+                                "width": 0,
+                                "height": 0
+                            },
+                            "ExtendedTileArea": null,
+                            "MapPixelArea": {
+                                "x": 111,
+                                "y": 113,
+                                "width": 3,
+                                "height": 2
+                            },
+                            "ScrollText": "[LocalizedText Strings\\StringsFromCSFiles:MapPage.cs.11070]",
+                            "ScrollTextZones": []
+                        },
+                        {
+                            "Id": "WizardHouse",
+                            "Condition": null,
+                            "LocationContext": null,
+                            "LocationName": null,
+                            "LocationNames": [
+                                "WizardHouse",
+                                "WizardHouseBasement"
+                            ],
+                            "TileArea": {
+                                "x": 0,
+                                "y": 0,
+                                "width": 0,
+                                "height": 0
+                            },
+                            "ExtendedTileArea": null,
+                            "MapPixelArea": {
+                                "x": 50,
+                                "y": 107,
+                                "width": 2,
+                                "height": 3
+                            },
+                            "ScrollText": "[LocalizedText Strings\\StringsFromCSFiles:MapPage.cs.11067]",
+                            "ScrollTextZones": []
+                        },
+                        {
+                            "Id": "BugLand",
+                            "Condition": null,
+                            "LocationContext": null,
+                            "LocationName": "BugLand",
+                            "LocationNames": [],
+                            "TileArea": {
+                                "x": 0,
+                                "y": 0,
+                                "width": 0,
+                                "height": 0
+                            },
+                            "ExtendedTileArea": null,
+                            "MapPixelArea": {
+                                "x": 112,
+                                "y": 151,
+                                "width": 2,
+                                "height": 2
+                            },
+                            "ScrollText": null,
+                            "ScrollTextZones": []
+                        },
+                        {
+                            "Id": "Default",
+                            "Condition": null,
+                            "LocationContext": null,
+                            "LocationName": "Forest",
+                            "LocationNames": [],
+                            "TileArea": {
+                                "x": 0,
+                                "y": 0,
+                                "width": 0,
+                                "height": 0
+                            },
+                            "ExtendedTileArea": null,
+                            "MapPixelArea": {
+                                "x": 0,
+                                "y": 0,
+                                "width": 0,
+                                "height": 0
+                            },
+                            "ScrollText": null,
+                            "ScrollTextZones": []
+                        }
+                    ],
+                    "CustomFields": null
+                },
+                {
+                    "Id": "Mountain",
+                    "Condition": null,
+                    "PixelArea": {
+                        "x": 165,
+                        "y": 26,
+                        "width": 98,
+                        "height": 18
+                    },
+                    "ScrollText": "[LocalizedText Strings\\StringsFromCSFiles:MapPage.cs.11176]",
+                    "Textures": [],
+                    "Tooltips": [
+                        {
+                            "Id": "AdventureGuild",
+                            "Condition": null,
+                            "KnownCondition": "DAYS_PLAYED 5",
+                            "PixelArea": {
+                                "x": 216,
+                                "y": 23,
+                                "width": 9,
+                                "height": 9
+                            },
+                            "Text": "\n                  [LocalizedText Strings\\StringsFromCSFiles:MapPage.cs.11099]\n                  [LocalizedText Strings\\StringsFromCSFiles:MapPage.cs.11100]\n                ",
+                            "LeftNeighbor": "Mountain/Mines",
+                            "RightNeighbor": "Mountain/Quarry",
+                            "UpNeighbor": "",
+                            "DownNeighbor": "Town/JojaMart"
+                        },
+                        {
+                            "Id": "Carpenter",
+                            "Condition": null,
+                            "KnownCondition": null,
+                            "PixelArea": {
+                                "x": 169,
+                                "y": 31,
+                                "width": 12,
+                                "height": 9
+                            },
+                            "Text": "\n                  [LocalizedText Strings\\StringsFromCSFiles:MapPage.cs.11094]\n                  [LocalizedText Strings\\StringsFromCSFiles:MapPage.cs.11095]\n                  [LocalizedText Strings\\StringsFromCSFiles:MapPage.cs.11096]\n                ",
+                            "LeftNeighbor": "Backwoods/Default",
+                            "RightNeighbor": "Mountain/Tent",
+                            "UpNeighbor": "Railroad/Railroad",
+                            "DownNeighbor": "Town/CommunityCenter"
+                        },
+                        {
+                            "Id": "Mines",
+                            "Condition": null,
+                            "KnownCondition": null,
+                            "PixelArea": {
+                                "x": 201,
+                                "y": 23,
+                                "width": 7,
+                                "height": 8
+                            },
+                            "Text": "[LocalizedText Strings\\StringsFromCSFiles:MapPage.cs.11098]",
+                            "LeftNeighbor": "Mountain/Tent",
+                            "RightNeighbor": "Mountain/AdventureGuild",
+                            "UpNeighbor": "",
+                            "DownNeighbor": "Town/JojaMart"
+                        },
+                        {
+                            "Id": "Quarry",
+                            "Condition": null,
+                            "KnownCondition": "PLAYER_HAS_MAIL Host ccCraftsRoom",
+                            "PixelArea": {
+                                "x": 242,
+                                "y": 29,
+                                "width": 22,
+                                "height": 19
+                            },
+                            "Text": "[LocalizedText Strings\\StringsFromCSFiles:MapPage.cs.11103]",
+                            "LeftNeighbor": "Mountain/AdventureGuild",
+                            "RightNeighbor": "",
+                            "UpNeighbor": "",
+                            "DownNeighbor": "Town/JojaMart"
+                        },
+                        {
+                            "Id": "Tent",
+                            "Condition": null,
+                            "KnownCondition": null,
+                            "PixelArea": {
+                                "x": 185,
+                                "y": 26,
+                                "width": 5,
+                                "height": 5
+                            },
+                            "Text": "[LocalizedText Strings\\StringsFromCSFiles:MapPage.cs.11097]",
+                            "LeftNeighbor": "Railroad/Railroad",
+                            "RightNeighbor": "Mountain/Mines",
+                            "UpNeighbor": "",
+                            "DownNeighbor": "Mountain/Carpenter"
+                        }
+                    ],
+                    "WorldPositions": [
+                        {
+                            "Id": "AdventureGuild",
+                            "Condition": null,
+                            "LocationContext": null,
+                            "LocationName": "AdventureGuild",
+                            "LocationNames": [],
+                            "TileArea": {
+                                "x": 0,
+                                "y": 0,
+                                "width": 0,
+                                "height": 0
+                            },
+                            "ExtendedTileArea": null,
+                            "MapPixelArea": {
+                                "x": 219,
+                                "y": 28,
+                                "width": 3,
+                                "height": 2
+                            },
+                            "ScrollText": "[LocalizedText Strings\\StringsFromCSFiles:MapPage.cs.11099]",
+                            "ScrollTextZones": []
+                        },
+                        {
+                            "Id": "ScienceHouse",
+                            "Condition": null,
+                            "LocationContext": null,
+                            "LocationName": null,
+                            "LocationNames": [
+                                "ScienceHouse",
+                                "SebastianRoom"
+                            ],
+                            "TileArea": {
+                                "x": 0,
+                                "y": 0,
+                                "width": 0,
+                                "height": 0
+                            },
+                            "ExtendedTileArea": null,
+                            "MapPixelArea": {
+                                "x": 172,
+                                "y": 36,
+                                "width": 6,
+                                "height": 4
+                            },
+                            "ScrollText": "[LocalizedText Strings\\StringsFromCSFiles:MapPage.cs.11094]",
+                            "ScrollTextZones": []
+                        },
+                        {
+                            "Id": "Mines",
+                            "Condition": null,
+                            "LocationContext": null,
+                            "LocationName": "Mines",
+                            "LocationNames": [],
+                            "TileArea": {
+                                "x": 0,
+                                "y": 0,
+                                "width": 0,
+                                "height": 0
+                            },
+                            "ExtendedTileArea": null,
+                            "MapPixelArea": {
+                                "x": 204,
+                                "y": 26,
+                                "width": 1,
+                                "height": 1
+                            },
+                            "ScrollText": "[LocalizedText Strings\\StringsFromCSFiles:MapPage.cs.11098]",
+                            "ScrollTextZones": []
+                        },
+                        {
+                            "Id": "Tent",
+                            "Condition": null,
+                            "LocationContext": null,
+                            "LocationName": "Tent",
+                            "LocationNames": [],
+                            "TileArea": {
+                                "x": 0,
+                                "y": 0,
+                                "width": 0,
+                                "height": 0
+                            },
+                            "ExtendedTileArea": null,
+                            "MapPixelArea": {
+                                "x": 189,
+                                "y": 28,
+                                "width": 1,
+                                "height": 2
+                            },
+                            "ScrollText": "[LocalizedText Strings\\StringsFromCSFiles:MapPage.cs.11097]",
+                            "ScrollTextZones": []
+                        },
+                        {
+                            "Id": "Default",
+                            "Condition": null,
+                            "LocationContext": null,
+                            "LocationName": "Mountain",
+                            "LocationNames": [],
+                            "TileArea": {
+                                "x": 0,
+                                "y": 0,
+                                "width": 0,
+                                "height": 0
+                            },
+                            "ExtendedTileArea": null,
+                            "MapPixelArea": {
+                                "x": 0,
+                                "y": 0,
+                                "width": 0,
+                                "height": 0
+                            },
+                            "ScrollText": "[LocalizedText Strings\\StringsFromCSFiles:MapPage.cs.11176]",
+                            "ScrollTextZones": [
+                                {
+                                    "Id": "Quarry",
+                                    "TileArea": {
+                                        "x": 95,
+                                        "y": 11,
+                                        "width": 36,
+                                        "height": 24
+                                    },
+                                    "ScrollText": "[LocalizedText Strings\\StringsFromCSFiles:MapPage.cs.11178]"
+                                },
+                                {
+                                    "Id": "MountainLake",
+                                    "TileArea": {
+                                        "x": 44,
+                                        "y": 5,
+                                        "width": 50,
+                                        "height": 30
+                                    },
+                                    "ScrollText": "[LocalizedText Strings\\StringsFromCSFiles:MapPage.cs.11177]"
+                                }
+                            ]
+                        }
+                    ],
+                    "CustomFields": null
+                },
+                {
+                    "Id": "Railroad",
+                    "Condition": null,
+                    "PixelArea": {
+                        "x": 140,
+                        "y": 10,
+                        "width": 46,
+                        "height": 15
+                    },
+                    "ScrollText": null,
+                    "Textures": [],
+                    "Tooltips": [
+                        {
+                            "Id": "Railroad",
+                            "Condition": null,
+                            "KnownCondition": "LOCATION_ACCESSIBLE Railroad",
+                            "PixelArea": {
+                                "x": 156,
+                                "y": 7,
+                                "width": 30,
+                                "height": 17
+                            },
+                            "Text": "[LocalizedText Strings\\StringsFromCSFiles:MapPage.cs.11119]",
+                            "LeftNeighbor": "Railroad/Spa",
+                            "RightNeighbor": "Mountain/Tent",
+                            "UpNeighbor": "",
+                            "DownNeighbor": "Mountain/Carpenter"
+                        },
+                        {
+                            "Id": "Spa",
+                            "Condition": null,
+                            "KnownCondition": "LOCATION_ACCESSIBLE Railroad",
+                            "PixelArea": {
+                                "x": 144,
+                                "y": 15,
+                                "width": 12,
+                                "height": 9
+                            },
+                            "Text": "\n                  [LocalizedText Strings\\StringsFromCSFiles:MapPage.cs.11110]\n                  [LocalizedText Strings\\StringsFromCSFiles:MapPage.cs.11111]\n                ",
+                            "LeftNeighbor": "Desert/Default",
+                            "RightNeighbor": "Railroad/Railroad",
+                            "UpNeighbor": "",
+                            "DownNeighbor": "Backwoods/Default"
+                        }
+                    ],
+                    "WorldPositions": [
+                        {
+                            "Id": "BathHouse_Entry",
+                            "Condition": null,
+                            "LocationContext": null,
+                            "LocationName": "BathHouse_Entry",
+                            "LocationNames": [],
+                            "TileArea": {
+                                "x": 0,
+                                "y": 0,
+                                "width": 0,
+                                "height": 0
+                            },
+                            "ExtendedTileArea": null,
+                            "MapPixelArea": {
+                                "x": 146,
+                                "y": 20,
+                                "width": 3,
+                                "height": 3
+                            },
+                            "ScrollText": "[LocalizedText Strings\\StringsFromCSFiles:MapPage.cs.11110]",
+                            "ScrollTextZones": []
+                        },
+                        {
+                            "Id": "BathHouse_MensLocker",
+                            "Condition": null,
+                            "LocationContext": null,
+                            "LocationName": null,
+                            "LocationNames": [
+                                "BathHouse_MensLocker",
+                                "BathHouse_WomensLocker"
+                            ],
+                            "TileArea": {
+                                "x": 0,
+                                "y": 0,
+                                "width": 0,
+                                "height": 0
+                            },
+                            "ExtendedTileArea": null,
+                            "MapPixelArea": {
+                                "x": 146,
+                                "y": 17,
+                                "width": 3,
+                                "height": 3
+                            },
+                            "ScrollText": "[LocalizedText Strings\\StringsFromCSFiles:MapPage.cs.11110]",
+                            "ScrollTextZones": []
+                        },
+                        {
+                            "Id": "BathHouse_Pool",
+                            "Condition": null,
+                            "LocationContext": null,
+                            "LocationName": "BathHouse_Pool",
+                            "LocationNames": [],
+                            "TileArea": {
+                                "x": 0,
+                                "y": 0,
+                                "width": 0,
+                                "height": 0
+                            },
+                            "ExtendedTileArea": null,
+                            "MapPixelArea": {
+                                "x": 149,
+                                "y": 17,
+                                "width": 6,
+                                "height": 6
+                            },
+                            "ScrollText": "[LocalizedText Strings\\StringsFromCSFiles:MapPage.cs.11110]",
+                            "ScrollTextZones": []
+                        },
+                        {
+                            "Id": "WitchWarpCave",
+                            "Condition": null,
+                            "LocationContext": null,
+                            "LocationName": "WitchWarpCave",
+                            "LocationNames": [],
+                            "TileArea": {
+                                "x": 0,
+                                "y": 0,
+                                "width": 0,
+                                "height": 0
+                            },
+                            "ExtendedTileArea": null,
+                            "MapPixelArea": {
+                                "x": 174,
+                                "y": 7,
+                                "width": 1,
+                                "height": 1
+                            },
+                            "ScrollText": "[LocalizedText Strings\\StringsFromCSFiles:MapPage.cs.11119]",
+                            "ScrollTextZones": []
+                        },
+                        {
+                            "Id": "WitchHut",
+                            "Condition": null,
+                            "LocationContext": null,
+                            "LocationName": null,
+                            "LocationNames": [
+                                "WitchHut",
+                                "WitchSwamp"
+                            ],
+                            "TileArea": {
+                                "x": 0,
+                                "y": 0,
+                                "width": 0,
+                                "height": 0
+                            },
+                            "ExtendedTileArea": null,
+                            "MapPixelArea": {
+                                "x": 174,
+                                "y": 7,
+                                "width": 1,
+                                "height": 1
+                            },
+                            "ScrollText": null,
+                            "ScrollTextZones": []
+                        },
+                        {
+                            "Id": "Railroad",
+                            "Condition": null,
+                            "LocationContext": null,
+                            "LocationName": "Railroad",
+                            "LocationNames": [],
+                            "TileArea": {
+                                "x": 0,
+                                "y": 36,
+                                "width": 255,
+                                "height": 255
+                            },
+                            "ExtendedTileArea": {
+                                "x": 0,
+                                "y": 0,
+                                "width": 255,
+                                "height": 255
+                            },
+                            "MapPixelArea": {
+                                "x": 0,
+                                "y": 0,
+                                "width": 0,
+                                "height": 0
+                            },
+                            "ScrollText": "[LocalizedText Strings\\StringsFromCSFiles:MapPage.cs.11119]",
+                            "ScrollTextZones": []
+                        },
+                        {
+                            "Id": "Summit",
+                            "Condition": null,
+                            "LocationContext": null,
+                            "LocationName": "Summit",
+                            "LocationNames": [],
+                            "TileArea": {
+                                "x": 0,
+                                "y": 0,
+                                "width": 0,
+                                "height": 0
+                            },
+                            "ExtendedTileArea": null,
+                            "MapPixelArea": {
+                                "x": 161,
+                                "y": 0,
+                                "width": 1,
+                                "height": 1
+                            },
+                            "ScrollText": null,
+                            "ScrollTextZones": []
+                        }
+                    ],
+                    "CustomFields": null
+                },
+                {
+                    "Id": "SecretWoods",
+                    "Condition": null,
+                    "PixelArea": {
+                        "x": 28,
+                        "y": 81,
+                        "width": 19,
+                        "height": 10
+                    },
+                    "ScrollText": null,
+                    "Textures": [],
+                    "Tooltips": [
+                        {
+                            "Id": "Default",
+                            "Condition": null,
+                            "KnownCondition": "PLAYER_HAS_MAIL Current beenToWoods",
+                            "PixelArea": {
+                                "x": 0,
+                                "y": 73,
+                                "width": 47,
+                                "height": 41
+                            },
+                            "Text": "[LocalizedText Strings\\StringsFromCSFiles:MapPage.cs.11114]",
+                            "LeftNeighbor": "",
+                            "RightNeighbor": "Forest/WizardTower",
+                            "UpNeighbor": "Desert/Default",
+                            "DownNeighbor": ""
+                        }
+                    ],
+                    "WorldPositions": [
+                        {
+                            "Id": "Woods",
+                            "Condition": null,
+                            "LocationContext": null,
+                            "LocationName": "Woods",
+                            "LocationNames": [],
+                            "TileArea": {
+                                "x": 0,
+                                "y": 0,
+                                "width": 0,
+                                "height": 0
+                            },
+                            "ExtendedTileArea": null,
+                            "MapPixelArea": {
+                                "x": 0,
+                                "y": 0,
+                                "width": 0,
+                                "height": 0
+                            },
+                            "ScrollText": "[LocalizedText Strings\\StringsFromCSFiles:MapPage.cs.11114]",
+                            "ScrollTextZones": []
+                        }
+                    ],
+                    "CustomFields": null
+                },
+                {
+                    "Id": "Town",
+                    "Condition": null,
+                    "PixelArea": {
+                        "x": 147,
+                        "y": 46,
+                        "width": 97,
+                        "height": 80
+                    },
+                    "ScrollText": "[LocalizedText Strings\\StringsFromCSFiles:MapPage.cs.11190]",
+                    "Textures": [
+                        {
+                            "Id": "MovieTheater_CommunityCenterRoute",
+                            "Condition": "PLAYER_HAS_MAIL Host ccMovieTheater, !PLAYER_HAS_MAIL Host ccMovieTheaterJoja",
+                            "Texture": "LooseSprites\\map",
+                            "SourceRect": {
+                                "x": 271,
+                                "y": 181,
+                                "width": 29,
+                                "height": 13
+                            },
+                            "MapPixelArea": {
+                                "x": 208,
+                                "y": 74,
+                                "width": 29,
+                                "height": 13
+                            }
+                        },
+                        {
+                            "Id": "MovieTheater_JojaRoute",
+                            "Condition": "PLAYER_HAS_MAIL Host ccMovieTheater, PLAYER_HAS_MAIL Host ccMovieTheaterJoja",
+                            "Texture": "LooseSprites\\map",
+                            "SourceRect": {
+                                "x": 276,
+                                "y": 181,
+                                "width": 12,
+                                "height": 13
+                            },
+                            "MapPixelArea": {
+                                "x": 179,
+                                "y": 50,
+                                "width": 12,
+                                "height": 13
+                            }
+                        },
+                        {
+                            "Id": "PamHouse",
+                            "Condition": "PLAYER_HAS_MAIL Host pamHouseUpgrade",
+                            "Texture": "LooseSprites\\map",
+                            "SourceRect": {
+                                "x": 263,
+                                "y": 181,
+                                "width": 8,
+                                "height": 8
+                            },
+                            "MapPixelArea": {
+                                "x": 196,
+                                "y": 90,
+                                "width": 8,
+                                "height": 8
+                            }
+                        }
+                    ],
+                    "Tooltips": [
+                        {
+                            "Id": "AlexHouse",
+                            "Condition": null,
+                            "KnownCondition": null,
+                            "PixelArea": {
+                                "x": 187,
+                                "y": 85,
+                                "width": 6,
+                                "height": 8
+                            },
+                            "Text": "\n                  [LocalizedText Strings\\StringsFromCSFiles:MapPage.cs.11092]\n                  [LocalizedText Strings\\StringsFromCSFiles:MapPage.cs.11093]\n                ",
+                            "LeftNeighbor": "Town/PierreStore",
+                            "RightNeighbor": "Town/JojaMart",
+                            "UpNeighbor": "Town/CommunityCenter",
+                            "DownNeighbor": "Town/Trailer"
+                        },
+                        {
+                            "Id": "Blacksmith",
+                            "Condition": null,
+                            "KnownCondition": null,
+                            "PixelArea": {
+                                "x": 212,
+                                "y": 100,
+                                "width": 7,
+                                "height": 8
+                            },
+                            "Text": "\n                  [LocalizedText Strings\\StringsFromCSFiles:MapPage.cs.11081]\n                  [LocalizedText Strings\\StringsFromCSFiles:MapPage.cs.11082]\n                ",
+                            "LeftNeighbor": "Town/ManorHouse",
+                            "RightNeighbor": "Town/Museum",
+                            "UpNeighbor": "Town/JojaMart",
+                            "DownNeighbor": "Beach/ElliottCabin"
+                        },
+                        {
+                            "Id": "CommunityCenter",
+                            "Condition": "!PLAYER_HAS_MAIL Host ccMovieTheaterJoja",
+                            "KnownCondition": null,
+                            "PixelArea": {
+                                "x": 182,
+                                "y": 53,
+                                "width": 9,
+                                "height": 9
+                            },
+                            "Text": "[LocalizedText Strings\\StringsFromCSFiles:MapPage.cs.11117]",
+                            "LeftNeighbor": "BusStop/Default",
+                            "RightNeighbor": "",
+                            "UpNeighbor": "Mountain/Carpenter",
+                            "DownNeighbor": "Town/PierreStore"
+                        },
+                        {
+                            "Id": "Graveyard",
+                            "Condition": null,
+                            "KnownCondition": null,
+                            "PixelArea": {
+                                "x": 177,
+                                "y": 106,
+                                "width": 10,
+                                "height": 8
+                            },
+                            "Text": "[LocalizedText Strings\\StringsFromCSFiles:MapPage.cs.11090]",
+                            "LeftNeighbor": "Town/Sewer",
+                            "RightNeighbor": "Town/ManorHouse",
+                            "UpNeighbor": "Town/Saloon",
+                            "DownNeighbor": "Beach/ElliottCabin"
+                        },
+                        {
+                            "Id": "HaleyHouse",
+                            "Condition": null,
+                            "KnownCondition": null,
+                            "PixelArea": {
+                                "x": 161,
+                                "y": 104,
+                                "width": 7,
+                                "height": 8
+                            },
+                            "Text": "\n                  [LocalizedText Strings\\StringsFromCSFiles:MapPage.cs.11073]\n                  [LocalizedText Strings\\StringsFromCSFiles:MapPage.cs.11074]\n                ",
+                            "LeftNeighbor": "Town/SamHouse",
+                            "RightNeighbor": "Town/Sewer",
+                            "UpNeighbor": "Town/TownSquare",
+                            "DownNeighbor": ""
+                        },
+                        {
+                            "Id": "Hospital",
+                            "Condition": null,
+                            "KnownCondition": null,
+                            "PixelArea": {
+                                "x": 170,
+                                "y": 81,
+                                "width": 4,
+                                "height": 8
+                            },
+                            "Text": "\n                  [LocalizedText Strings\\StringsFromCSFiles:MapPage.cs.11076]\n                  [LocalizedText Strings\\StringsFromCSFiles:MapPage.cs.11077]\n                ",
+                            "LeftNeighbor": "BusStop/Default",
+                            "RightNeighbor": "Town/PierreStore",
+                            "UpNeighbor": "Town/CommunityCenter",
+                            "DownNeighbor": "Town/TownSquare"
+                        },
+                        {
+                            "Id": "JojaMart_Open",
+                            "Condition": "ANY \"!PLAYER_HAS_MAIL Host ccMovieTheater\" \"PLAYER_HAS_MAIL Host ccMovieTheaterJoja\", !PLAYER_HAS_SEEN_EVENT Host 191393",
+                            "KnownCondition": null,
+                            "PixelArea": {
+                                "x": 213,
+                                "y": 77,
+                                "width": 11,
+                                "height": 9
+                            },
+                            "Text": "\n                  [LocalizedText Strings\\StringsFromCSFiles:MapPage.cs.11105]\n                  [LocalizedText Strings\\StringsFromCSFiles:MapPage.cs.11106]\n                ",
+                            "LeftNeighbor": "Town/AlexHouse",
+                            "RightNeighbor": "",
+                            "UpNeighbor": "Mountain/AdventureGuild",
+                            "DownNeighbor": "Town/Blacksmith"
+                        },
+                        {
+                            "Id": "JojaMart_Abandoned",
+                            "Condition": "ANY \"!PLAYER_HAS_MAIL Host ccMovieTheater\" \"PLAYER_HAS_MAIL Host ccMovieTheaterJoja\", PLAYER_HAS_SEEN_EVENT Host 191393",
+                            "KnownCondition": null,
+                            "PixelArea": {
+                                "x": 213,
+                                "y": 77,
+                                "width": 11,
+                                "height": 9
+                            },
+                            "Text": "[LocalizedText Strings\\StringsFromCSFiles:AbandonedJojaMart]",
+                            "LeftNeighbor": "Town/AlexHouse",
+                            "RightNeighbor": "",
+                            "UpNeighbor": "Mountain/AdventureGuild",
+                            "DownNeighbor": "Town/Blacksmith"
+                        },
+                        {
+                            "Id": "ManorHouse",
+                            "Condition": null,
+                            "KnownCondition": null,
+                            "PixelArea": {
+                                "x": 187,
+                                "y": 100,
+                                "width": 10,
+                                "height": 11
+                            },
+                            "Text": "[LocalizedText Strings\\StringsFromCSFiles:MapPage.cs.11085]",
+                            "LeftNeighbor": "Town/Graveyard",
+                            "RightNeighbor": "Town/Blacksmith",
+                            "UpNeighbor": "Town/Trailer",
+                            "DownNeighbor": "Beach/ElliottCabin"
+                        },
+                        {
+                            "Id": "MovieTheater_CommunityCenterRoute",
+                            "Condition": "PLAYER_HAS_MAIL Host ccMovieTheater, !PLAYER_HAS_MAIL Host ccMovieTheaterJoja",
+                            "KnownCondition": null,
+                            "PixelArea": {
+                                "x": 209,
+                                "y": 71,
+                                "width": 24,
+                                "height": 12
+                            },
+                            "Text": "\n                  [LocalizedText Strings\\StringsFromCSFiles:MovieTheater_Map]\n                  [LocalizedText Strings\\StringsFromCSFiles:MovieTheater_Hours]\n                ",
+                            "LeftNeighbor": "Town/AlexHouse",
+                            "RightNeighbor": "",
+                            "UpNeighbor": "Mountain/AdventureGuild",
+                            "DownNeighbor": "Town/Blacksmith"
+                        },
+                        {
+                            "Id": "MovieTheater_JojaRoute",
+                            "Condition": "PLAYER_HAS_MAIL Host ccMovieTheater, PLAYER_HAS_MAIL Host ccMovieTheaterJoja",
+                            "KnownCondition": null,
+                            "PixelArea": {
+                                "x": 179,
+                                "y": 50,
+                                "width": 12,
+                                "height": 13
+                            },
+                            "Text": "\n                  [LocalizedText Strings\\StringsFromCSFiles:MovieTheater_Map]\n                  [LocalizedText Strings\\StringsFromCSFiles:MovieTheater_Hours]\n                ",
+                            "LeftNeighbor": "BusStop/Default",
+                            "RightNeighbor": "",
+                            "UpNeighbor": "Mountain/Carpenter",
+                            "DownNeighbor": "Town/PierreStore"
+                        },
+                        {
+                            "Id": "Museum",
+                            "Condition": null,
+                            "KnownCondition": null,
+                            "PixelArea": {
+                                "x": 219,
+                                "y": 106,
+                                "width": 7,
+                                "height": 8
+                            },
+                            "Text": "\n                  [LocalizedText Strings\\StringsFromCSFiles:MapPage.cs.11086]\n                  [LocalizedText Strings\\StringsFromCSFiles:MapPage.cs.11087]\n                ",
+                            "LeftNeighbor": "Town/Blacksmith",
+                            "RightNeighbor": "",
+                            "UpNeighbor": "Town/JojaMart",
+                            "DownNeighbor": "Beach/ElliottCabin"
+                        },
+                        {
+                            "Id": "PamHouse",
+                            "Condition": "PLAYER_HAS_MAIL Host pamHouseUpgrade",
+                            "KnownCondition": null,
+                            "PixelArea": {
+                                "x": 196,
+                                "y": 90,
+                                "width": 8,
+                                "height": 8
+                            },
+                            "Text": "\n                  [LocalizedText Strings\\StringsFromCSFiles:MapPage.PamHouse]\n                  [LocalizedText Strings\\StringsFromCSFiles:MapPage.PamHouseHomeOf]\n                ",
+                            "LeftNeighbor": "Town/Saloon",
+                            "RightNeighbor": "Town/JojaMart",
+                            "UpNeighbor": "Town/AlexHouse",
+                            "DownNeighbor": "Town/ManorHouse"
+                        },
+                        {
+                            "Id": "Trailer",
+                            "Condition": "!PLAYER_HAS_MAIL Host pamHouseUpgrade",
+                            "KnownCondition": null,
+                            "PixelArea": {
+                                "x": 197,
+                                "y": 92,
+                                "width": 7,
+                                "height": 6
+                            },
+                            "Text": "[LocalizedText Strings\\StringsFromCSFiles:MapPage.cs.11091]",
+                            "LeftNeighbor": "Town/Saloon",
+                            "RightNeighbor": "Town/JojaMart",
+                            "UpNeighbor": "Town/AlexHouse",
+                            "DownNeighbor": "Town/ManorHouse"
+                        },
+                        {
+                            "Id": "PierreStore_InitialHours",
+                            "Condition": "!PLAYER_HAS_SEEN_EVENT Host 191393",
+                            "KnownCondition": null,
+                            "PixelArea": {
+                                "x": 174,
+                                "y": 79,
+                                "width": 8,
+                                "height": 9
+                            },
+                            "Text": "\n                  [LocalizedText Strings\\StringsFromCSFiles:MapPage.cs.11078]\n                  [LocalizedText Strings\\StringsFromCSFiles:MapPage.cs.11079]\n                  [LocalizedText Strings\\StringsFromCSFiles:MapPage.cs.11080]\n                ",
+                            "LeftNeighbor": "Town/Hospital",
+                            "RightNeighbor": "Town/AlexHouse",
+                            "UpNeighbor": "Town/CommunityCenter",
+                            "DownNeighbor": "Town/Saloon"
+                        },
+                        {
+                            "Id": "PierreStore_ExtendedHours",
+                            "Condition": "PLAYER_HAS_SEEN_EVENT Host 191393",
+                            "KnownCondition": null,
+                            "PixelArea": {
+                                "x": 174,
+                                "y": 79,
+                                "width": 8,
+                                "height": 9
+                            },
+                            "Text": "\n                  [LocalizedText Strings\\StringsFromCSFiles:MapPage.cs.11078]\n                  [LocalizedText Strings\\StringsFromCSFiles:MapPage.cs.11079]\n                  [LocalizedText Strings\\StringsFromCSFiles:MapPage.cs.11080_ExtendedHours]\n                ",
+                            "LeftNeighbor": "Town/Hospital",
+                            "RightNeighbor": "Town/AlexHouse",
+                            "UpNeighbor": "Town/CommunityCenter",
+                            "DownNeighbor": "Town/Saloon"
+                        },
+                        {
+                            "Id": "Saloon",
+                            "Condition": null,
+                            "KnownCondition": null,
+                            "PixelArea": {
+                                "x": 176,
+                                "y": 92,
+                                "width": 6,
+                                "height": 7
+                            },
+                            "Text": "\n                  [LocalizedText Strings\\StringsFromCSFiles:MapPage.cs.11083]\n                  [LocalizedText Strings\\StringsFromCSFiles:MapPage.cs.11084]\n                ",
+                            "LeftNeighbor": "Town/TownSquare",
+                            "RightNeighbor": "Town/Trailer",
+                            "UpNeighbor": "Town/PierreStore",
+                            "DownNeighbor": "Town/Graveyard"
+                        },
+                        {
+                            "Id": "SamHouse",
+                            "Condition": null,
+                            "KnownCondition": null,
+                            "PixelArea": {
+                                "x": 151,
+                                "y": 101,
+                                "width": 7,
+                                "height": 10
+                            },
+                            "Text": "\n                  [LocalizedText Strings\\StringsFromCSFiles:MapPage.cs.11071]\n                  [LocalizedText Strings\\StringsFromCSFiles:MapPage.cs.11072]\n                ",
+                            "LeftNeighbor": "Forest/MarnieRanch",
+                            "RightNeighbor": "Town/HaleyHouse",
+                            "UpNeighbor": "Town/TownSquare",
+                            "DownNeighbor": ""
+                        },
+                        {
+                            "Id": "Sewer",
+                            "Condition": null,
+                            "KnownCondition": null,
+                            "PixelArea": {
+                                "x": 170,
+                                "y": 115,
+                                "width": 6,
+                                "height": 4
+                            },
+                            "Text": "[LocalizedText Strings\\StringsFromCSFiles:MapPage.cs.11089]",
+                            "LeftNeighbor": "Town/HaleyHouse",
+                            "RightNeighbor": "Town/Graveyard",
+                            "UpNeighbor": "Town/Saloon",
+                            "DownNeighbor": "Beach/ElliottCabin"
+                        },
+                        {
+                            "Id": "TownSquare",
+                            "Condition": null,
+                            "KnownCondition": null,
+                            "PixelArea": {
+                                "x": 163,
+                                "y": 92,
+                                "width": 12,
+                                "height": 9
+                            },
+                            "Text": "[LocalizedText Strings\\StringsFromCSFiles:MapPage.cs.11075]",
+                            "LeftNeighbor": "Town/SamHouse",
+                            "RightNeighbor": "Town/Saloon",
+                            "UpNeighbor": "Town/Hospital",
+                            "DownNeighbor": "Town/HaleyHouse"
+                        }
+                    ],
+                    "WorldPositions": [
+                        {
+                            "Id": "JoshHouse",
+                            "Condition": null,
+                            "LocationContext": null,
+                            "LocationName": "JoshHouse",
+                            "LocationNames": [],
+                            "TileArea": {
+                                "x": 0,
+                                "y": 0,
+                                "width": 0,
+                                "height": 0
+                            },
+                            "ExtendedTileArea": null,
+                            "MapPixelArea": {
+                                "x": 188,
+                                "y": 89,
+                                "width": 4,
+                                "height": 4
+                            },
+                            "ScrollText": "[LocalizedText Strings\\StringsFromCSFiles:MapPage.cs.11092]",
+                            "ScrollTextZones": []
+                        },
+                        {
+                            "Id": "Blacksmith",
+                            "Condition": null,
+                            "LocationContext": null,
+                            "LocationName": "Blacksmith",
+                            "LocationNames": [],
+                            "TileArea": {
+                                "x": 0,
+                                "y": 0,
+                                "width": 0,
+                                "height": 0
+                            },
+                            "ExtendedTileArea": null,
+                            "MapPixelArea": {
+                                "x": 214,
+                                "y": 104,
+                                "width": 3,
+                                "height": 3
+                            },
+                            "ScrollText": "[LocalizedText Strings\\StringsFromCSFiles:MapPage.cs.11081]",
+                            "ScrollTextZones": []
+                        },
+                        {
+                            "Id": "CommunityCenter",
+                            "Condition": null,
+                            "LocationContext": null,
+                            "LocationName": "CommunityCenter",
+                            "LocationNames": [],
+                            "TileArea": {
+                                "x": 0,
+                                "y": 0,
+                                "width": 0,
+                                "height": 0
+                            },
+                            "ExtendedTileArea": null,
+                            "MapPixelArea": {
+                                "x": 184,
+                                "y": 57,
+                                "width": 5,
+                                "height": 4
+                            },
+                            "ScrollText": "[LocalizedText Strings\\StringsFromCSFiles:MapPage.cs.11117]",
+                            "ScrollTextZones": []
+                        },
+                        {
+                            "Id": "HaleyHouse",
+                            "Condition": null,
+                            "LocationContext": null,
+                            "LocationName": "HaleyHouse",
+                            "LocationNames": [],
+                            "TileArea": {
+                                "x": 0,
+                                "y": 0,
+                                "width": 0,
+                                "height": 0
+                            },
+                            "ExtendedTileArea": null,
+                            "MapPixelArea": {
+                                "x": 162,
+                                "y": 108,
+                                "width": 5,
+                                "height": 3
+                            },
+                            "ScrollText": "[LocalizedText Strings\\StringsFromCSFiles:MapPage.cs.11073]",
+                            "ScrollTextZones": []
+                        },
+                        {
+                            "Id": "Hospital",
+                            "Condition": null,
+                            "LocationContext": null,
+                            "LocationName": null,
+                            "LocationNames": [
+                                "Hospital",
+                                "HarveyRoom"
+                            ],
+                            "TileArea": {
+                                "x": 0,
+                                "y": 0,
+                                "width": 0,
+                                "height": 0
+                            },
+                            "ExtendedTileArea": null,
+                            "MapPixelArea": {
+                                "x": 171,
+                                "y": 84,
+                                "width": 3,
+                                "height": 3
+                            },
+                            "ScrollText": "[LocalizedText Strings\\StringsFromCSFiles:MapPage.cs.11076]",
+                            "ScrollTextZones": []
+                        },
+                        {
+                            "Id": "JojaMart",
+                            "Condition": null,
+                            "LocationContext": null,
+                            "LocationName": "JojaMart",
+                            "LocationNames": [],
+                            "TileArea": {
+                                "x": 0,
+                                "y": 0,
+                                "width": 0,
+                                "height": 0
+                            },
+                            "ExtendedTileArea": null,
+                            "MapPixelArea": {
+                                "x": 215,
+                                "y": 79,
+                                "width": 7,
+                                "height": 5
+                            },
+                            "ScrollText": "[LocalizedText Strings\\StringsFromCSFiles:MapPage.cs.11105]",
+                            "ScrollTextZones": []
+                        },
+                        {
+                            "Id": "AbandonedJojaMart",
+                            "Condition": null,
+                            "LocationContext": null,
+                            "LocationName": "AbandonedJojaMart",
+                            "LocationNames": [],
+                            "TileArea": {
+                                "x": 0,
+                                "y": 0,
+                                "width": 0,
+                                "height": 0
+                            },
+                            "ExtendedTileArea": null,
+                            "MapPixelArea": {
+                                "x": 215,
+                                "y": 79,
+                                "width": 7,
+                                "height": 5
+                            },
+                            "ScrollText": "[LocalizedText Strings\\StringsFromCSFiles:AbandonedJojaMart]",
+                            "ScrollTextZones": []
+                        },
+                        {
+                            "Id": "ManorHouse",
+                            "Condition": null,
+                            "LocationContext": null,
+                            "LocationName": "ManorHouse",
+                            "LocationNames": [],
+                            "TileArea": {
+                                "x": 0,
+                                "y": 0,
+                                "width": 0,
+                                "height": 0
+                            },
+                            "ExtendedTileArea": null,
+                            "MapPixelArea": {
+                                "x": 189,
+                                "y": 104,
+                                "width": 6,
+                                "height": 6
+                            },
+                            "ScrollText": "[LocalizedText Strings\\StringsFromCSFiles:MapPage.cs.11085]",
+                            "ScrollTextZones": []
+                        },
+                        {
+                            "Id": "MovieTheater_CommunityCenterRoute",
+                            "Condition": "!PLAYER_HAS_MAIL Host ccMovieTheaterJoja",
+                            "LocationContext": null,
+                            "LocationName": null,
+                            "LocationNames": [
+                                "MovieTheater",
+                                "MovieTheaterScreen"
+                            ],
+                            "TileArea": {
+                                "x": 0,
+                                "y": 0,
+                                "width": 0,
+                                "height": 0
+                            },
+                            "ExtendedTileArea": null,
+                            "MapPixelArea": {
+                                "x": 214,
+                                "y": 78,
+                                "width": 10,
+                                "height": 6
+                            },
+                            "ScrollText": "[LocalizedText Strings\\StringsFromCSFiles:MovieTheater_Map]",
+                            "ScrollTextZones": []
+                        },
+                        {
+                            "Id": "MovieTheater_JojaRoute",
+                            "Condition": "PLAYER_HAS_MAIL Host ccMovieTheaterJoja",
+                            "LocationContext": null,
+                            "LocationName": null,
+                            "LocationNames": [
+                                "MovieTheater",
+                                "MovieTheaterScreen"
+                            ],
+                            "TileArea": {
+                                "x": 0,
+                                "y": 0,
+                                "width": 0,
+                                "height": 0
+                            },
+                            "ExtendedTileArea": null,
+                            "MapPixelArea": {
+                                "x": 180,
+                                "y": 54,
+                                "width": 10,
+                                "height": 6
+                            },
+                            "ScrollText": "[LocalizedText Strings\\StringsFromCSFiles:MovieTheater_Map]",
+                            "ScrollTextZones": []
+                        },
+                        {
+                            "Id": "ArchaeologyHouse",
+                            "Condition": null,
+                            "LocationContext": null,
+                            "LocationName": "ArchaeologyHouse",
+                            "LocationNames": [],
+                            "TileArea": {
+                                "x": 0,
+                                "y": 0,
+                                "width": 0,
+                                "height": 0
+                            },
+                            "ExtendedTileArea": null,
+                            "MapPixelArea": {
+                                "x": 220,
+                                "y": 110,
+                                "width": 5,
+                                "height": 3
+                            },
+                            "ScrollText": "[LocalizedText Strings\\StringsFromCSFiles:MapPage.cs.11086]",
+                            "ScrollTextZones": []
+                        },
+                        {
+                            "Id": "Trailer",
+                            "Condition": null,
+                            "LocationContext": null,
+                            "LocationName": "Trailer",
+                            "LocationNames": [],
+                            "TileArea": {
+                                "x": 0,
+                                "y": 0,
+                                "width": 0,
+                                "height": 0
+                            },
+                            "ExtendedTileArea": null,
+                            "MapPixelArea": {
+                                "x": 198,
+                                "y": 94,
+                                "width": 5,
+                                "height": 3
+                            },
+                            "ScrollText": "[LocalizedText Strings\\StringsFromCSFiles:MapPage.cs.11091]",
+                            "ScrollTextZones": []
+                        },
+                        {
+                            "Id": "Trailer_Big",
+                            "Condition": null,
+                            "LocationContext": null,
+                            "LocationName": "Trailer_Big",
+                            "LocationNames": [],
+                            "TileArea": {
+                                "x": 0,
+                                "y": 0,
+                                "width": 0,
+                                "height": 0
+                            },
+                            "ExtendedTileArea": null,
+                            "MapPixelArea": {
+                                "x": 198,
+                                "y": 94,
+                                "width": 4,
+                                "height": 3
+                            },
+                            "ScrollText": "[LocalizedText Strings\\StringsFromCSFiles:MapPage.PamHouse]",
+                            "ScrollTextZones": []
+                        },
+                        {
+                            "Id": "SeedShop",
+                            "Condition": null,
+                            "LocationContext": null,
+                            "LocationName": "SeedShop",
+                            "LocationNames": [],
+                            "TileArea": {
+                                "x": 0,
+                                "y": 0,
+                                "width": 0,
+                                "height": 0
+                            },
+                            "ExtendedTileArea": null,
+                            "MapPixelArea": {
+                                "x": 175,
+                                "y": 84,
+                                "width": 6,
+                                "height": 3
+                            },
+                            "ScrollText": "[LocalizedText Strings\\StringsFromCSFiles:MapPage.cs.11078]",
+                            "ScrollTextZones": []
+                        },
+                        {
+                            "Id": "Sunroom",
+                            "Condition": null,
+                            "LocationContext": null,
+                            "LocationName": "Sunroom",
+                            "LocationNames": [],
+                            "TileArea": {
+                                "x": 0,
+                                "y": 0,
+                                "width": 0,
+                                "height": 0
+                            },
+                            "ExtendedTileArea": null,
+                            "MapPixelArea": {
+                                "x": 176,
+                                "y": 83,
+                                "width": 6,
+                                "height": 4
+                            },
+                            "ScrollText": null,
+                            "ScrollTextZones": []
+                        },
+                        {
+                            "Id": "Saloon",
+                            "Condition": null,
+                            "LocationContext": null,
+                            "LocationName": "Saloon",
+                            "LocationNames": [],
+                            "TileArea": {
+                                "x": 0,
+                                "y": 0,
+                                "width": 0,
+                                "height": 0
+                            },
+                            "ExtendedTileArea": null,
+                            "MapPixelArea": {
+                                "x": 177,
+                                "y": 95,
+                                "width": 4,
+                                "height": 3
+                            },
+                            "ScrollText": "[LocalizedText Strings\\StringsFromCSFiles:MapPage.cs.11172]",
+                            "ScrollTextZones": []
+                        },
+                        {
+                            "Id": "SamHouse",
+                            "Condition": null,
+                            "LocationContext": null,
+                            "LocationName": "SamHouse",
+                            "LocationNames": [],
+                            "TileArea": {
+                                "x": 0,
+                                "y": 0,
+                                "width": 0,
+                                "height": 0
+                            },
+                            "ExtendedTileArea": null,
+                            "MapPixelArea": {
+                                "x": 153,
+                                "y": 107,
+                                "width": 3,
+                                "height": 3
+                            },
+                            "ScrollText": "[LocalizedText Strings\\StringsFromCSFiles:MapPage.cs.11071]",
+                            "ScrollTextZones": []
+                        },
+                        {
+                            "Id": "Sewer",
+                            "Condition": null,
+                            "LocationContext": null,
+                            "LocationName": "Sewer",
+                            "LocationNames": [],
+                            "TileArea": {
+                                "x": 0,
+                                "y": 0,
+                                "width": 0,
+                                "height": 0
+                            },
+                            "ExtendedTileArea": null,
+                            "MapPixelArea": {
+                                "x": 175,
+                                "y": 120,
+                                "width": 2,
+                                "height": 2
+                            },
+                            "ScrollText": "[LocalizedText Strings\\StringsFromCSFiles:MapPage.cs.11089]",
+                            "ScrollTextZones": []
+                        },
+                        {
+                            "Id": "Default",
+                            "Condition": null,
+                            "LocationContext": null,
+                            "LocationName": "Town",
+                            "LocationNames": [],
+                            "TileArea": {
+                                "x": 0,
+                                "y": 0,
+                                "width": 0,
+                                "height": 0
+                            },
+                            "ExtendedTileArea": null,
+                            "MapPixelArea": {
+                                "x": 0,
+                                "y": 0,
+                                "width": 0,
+                                "height": 0
+                            },
+                            "ScrollText": null,
+                            "ScrollTextZones": []
+                        }
+                    ],
+                    "CustomFields": null
+                },
+                {
+                    "Id": "GingerIsland",
+                    "Condition": "!PLAYER_LOCATION_CONTEXT Current Island, ANY \"PLAYER_HAS_MAIL Current Visited_Island\" \"PLAYER_HAS_MAIL Host Island_Resort\" \"PLAYER_LOCATION_CONTEXT Any Island\"",
+                    "PixelArea": {
+                        "x": 260,
+                        "y": 150,
+                        "width": 40,
+                        "height": 30
+                    },
+                    "ScrollText": "[LocalizedText Strings\\StringsFromCSFiles:IslandName]",
+                    "Textures": [
+                        {
+                            "Id": "GingerIsland",
+                            "Condition": null,
+                            "Texture": "LooseSprites\\map",
+                            "SourceRect": {
+                                "x": 208,
+                                "y": 363,
+                                "width": 40,
+                                "height": 30
+                            },
+                            "MapPixelArea": {
+                                "x": 0,
+                                "y": 0,
+                                "width": 0,
+                                "height": 0
+                            }
+                        }
+                    ],
+                    "Tooltips": [
+                        {
+                            "Id": "Default",
+                            "Condition": null,
+                            "KnownCondition": null,
+                            "PixelArea": {
+                                "x": 0,
+                                "y": 0,
+                                "width": 0,
+                                "height": 0
+                            },
+                            "Text": "[LocalizedText Strings\\StringsFromCSFiles:IslandName]",
+                            "LeftNeighbor": "Beach/FishShop",
+                            "RightNeighbor": "",
+                            "UpNeighbor": "Town/Blacksmith",
+                            "DownNeighbor": ""
+                        }
+                    ],
+                    "WorldPositions": [
+                        {
+                            "Id": "Island",
+                            "Condition": null,
+                            "LocationContext": "Island",
+                            "LocationName": null,
+                            "LocationNames": [],
+                            "TileArea": {
+                                "x": 0,
+                                "y": 0,
+                                "width": 0,
+                                "height": 0
+                            },
+                            "ExtendedTileArea": null,
+                            "MapPixelArea": {
+                                "x": 280,
+                                "y": 165,
+                                "width": 1,
+                                "height": 1
+                            },
+                            "ScrollText": null,
+                            "ScrollTextZones": []
+                        }
+                    ],
+                    "CustomFields": null
+                }
+            ]
+        },
+        "GingerIsland": {
+            "BaseTexture": [
+                {
+                    "Id": "BaseMap",
+                    "Condition": null,
+                    "Texture": "LooseSprites\\map_island",
+                    "SourceRect": {
+                        "x": 0,
+                        "y": 0,
+                        "width": 300,
+                        "height": 180
+                    },
+                    "MapPixelArea": {
+                        "x": 0,
+                        "y": 0,
+                        "width": 300,
+                        "height": 180
+                    }
+                }
+            ],
+            "MapNeighborIdAliases": {},
+            "MapAreas": [
+                {
+                    "Id": "East",
+                    "Condition": null,
+                    "PixelArea": {
+                        "x": 181,
+                        "y": 65,
+                        "width": 31,
+                        "height": 39
+                    },
+                    "ScrollText": null,
+                    "Textures": [],
+                    "Tooltips": [
+                        {
+                            "Id": "JungleHut",
+                            "Condition": null,
+                            "KnownCondition": "PLAYER_VISITED_LOCATION Current IslandHut",
+                            "PixelArea": {
+                                "x": 190,
+                                "y": 67,
+                                "width": 13,
+                                "height": 12
+                            },
+                            "Text": "[LocalizedText Strings\\WorldMap:GingerIsland_East_JungleHut]",
+                            "LeftNeighbor": "North/FieldOffice",
+                            "RightNeighbor": "",
+                            "UpNeighbor": "North/Volcano",
+                            "DownNeighbor": "SouthEast/PirateCove"
+                        }
+                    ],
+                    "WorldPositions": [
+                        {
+                            "Id": "JungleHut",
+                            "Condition": null,
+                            "LocationContext": null,
+                            "LocationName": "IslandHut",
+                            "LocationNames": [],
+                            "TileArea": {
+                                "x": 0,
+                                "y": 0,
+                                "width": 0,
+                                "height": 0
+                            },
+                            "ExtendedTileArea": null,
+                            "MapPixelArea": {
+                                "x": 190,
+                                "y": 67,
+                                "width": 13,
+                                "height": 12
+                            },
+                            "ScrollText": null,
+                            "ScrollTextZones": []
+                        },
+                        {
+                            "Id": "Shrine",
+                            "Condition": null,
+                            "LocationContext": null,
+                            "LocationName": "IslandShrine",
+                            "LocationNames": [],
+                            "TileArea": {
+                                "x": 0,
+                                "y": 0,
+                                "width": 0,
+                                "height": 0
+                            },
+                            "ExtendedTileArea": null,
+                            "MapPixelArea": {
+                                "x": 210,
+                                "y": 70,
+                                "width": 5,
+                                "height": 5
+                            },
+                            "ScrollText": null,
+                            "ScrollTextZones": []
+                        },
+                        {
+                            "Id": "Default",
+                            "Condition": null,
+                            "LocationContext": null,
+                            "LocationName": "IslandEast",
+                            "LocationNames": [],
+                            "TileArea": {
+                                "x": 0,
+                                "y": 0,
+                                "width": 0,
+                                "height": 0
+                            },
+                            "ExtendedTileArea": null,
+                            "MapPixelArea": {
+                                "x": 0,
+                                "y": 0,
+                                "width": 0,
+                                "height": 0
+                            },
+                            "ScrollText": null,
+                            "ScrollTextZones": []
+                        }
+                    ],
+                    "CustomFields": null
+                },
+                {
+                    "Id": "North",
+                    "Condition": null,
+                    "PixelArea": {
+                        "x": 129,
+                        "y": 38,
+                        "width": 52,
+                        "height": 66
+                    },
+                    "ScrollText": null,
+                    "Textures": [
+                        {
+                            "Id": "Bridge",
+                            "Condition": "PLAYER_HAS_MAIL Host Island_UpgradeBridge",
+                            "Texture": "LooseSprites\\map_island",
+                            "SourceRect": {
+                                "x": 41,
+                                "y": 180,
+                                "width": 2,
+                                "height": 2
+                            },
+                            "MapPixelArea": {
+                                "x": 152,
+                                "y": 78,
+                                "width": 2,
+                                "height": 2
+                            }
+                        },
+                        {
+                            "Id": "Trader",
+                            "Condition": "PLAYER_HAS_MAIL Host Island_UpgradeTrader",
+                            "Texture": "LooseSprites\\map_island",
+                            "SourceRect": {
+                                "x": 33,
+                                "y": 180,
+                                "width": 8,
+                                "height": 6
+                            },
+                            "MapPixelArea": {
+                                "x": 152,
+                                "y": 87,
+                                "width": 8,
+                                "height": 6
+                            }
+                        }
+                    ],
+                    "Tooltips": [
+                        {
+                            "Id": "DigSite",
+                            "Condition": null,
+                            "KnownCondition": "PLAYER_VISITED_LOCATION Current IslandNorth",
+                            "PixelArea": {
+                                "x": 131,
+                                "y": 69,
+                                "width": 18,
+                                "height": 18
+                            },
+                            "Text": "[LocalizedText Strings\\WorldMap:GingerIsland_North_DigSite]",
+                            "LeftNeighbor": "",
+                            "RightNeighbor": "North/FieldOffice",
+                            "UpNeighbor": "North/Volcano",
+                            "DownNeighbor": "North/Trader, South/Resort, South/Dock"
+                        },
+                        {
+                            "Id": "FieldOffice",
+                            "Condition": null,
+                            "KnownCondition": "PLAYER_VISITED_LOCATION Current IslandFieldOffice",
+                            "PixelArea": {
+                                "x": 160,
+                                "y": 68,
+                                "width": 7,
+                                "height": 7
+                            },
+                            "Text": "[LocalizedText Strings\\WorldMap:GingerIsland_North_FieldOffice]",
+                            "LeftNeighbor": "North/DigSite",
+                            "RightNeighbor": "East/JungleHut",
+                            "UpNeighbor": "North/Volcano",
+                            "DownNeighbor": "North/Trader, South/Resort, South/Dock"
+                        },
+                        {
+                            "Id": "Trader",
+                            "Condition": "PLAYER_HAS_MAIL Host Island_UpgradeTrader",
+                            "KnownCondition": null,
+                            "PixelArea": {
+                                "x": 152,
+                                "y": 87,
+                                "width": 8,
+                                "height": 6
+                            },
+                            "Text": "[LocalizedText Strings\\WorldMap:GingerIsland_North_Trader]",
+                            "LeftNeighbor": "North/DigSite",
+                            "RightNeighbor": "East/JungleHut",
+                            "UpNeighbor": "North/FieldOffice",
+                            "DownNeighbor": "South/Resort, South/Dock"
+                        },
+                        {
+                            "Id": "Volcano",
+                            "Condition": null,
+                            "KnownCondition": null,
+                            "PixelArea": {
+                                "x": 146,
+                                "y": 31,
+                                "width": 28,
+                                "height": 26
+                            },
+                            "Text": "[LocalizedText Strings\\WorldMap:GingerIsland_North_Volcano]",
+                            "LeftNeighbor": "",
+                            "RightNeighbor": "",
+                            "UpNeighbor": "",
+                            "DownNeighbor": "North/FieldOffice"
+                        }
+                    ],
+                    "WorldPositions": [
+                        {
+                            "Id": "Caldera",
+                            "Condition": null,
+                            "LocationContext": null,
+                            "LocationName": "Caldera",
+                            "LocationNames": [],
+                            "TileArea": {
+                                "x": 0,
+                                "y": 0,
+                                "width": 0,
+                                "height": 0
+                            },
+                            "ExtendedTileArea": null,
+                            "MapPixelArea": {
+                                "x": 155,
+                                "y": 33,
+                                "width": 7,
+                                "height": 4
+                            },
+                            "ScrollText": null,
+                            "ScrollTextZones": []
+                        },
+                        {
+                            "Id": "Cave",
+                            "Condition": null,
+                            "LocationContext": null,
+                            "LocationName": "IslandNorthCave1",
+                            "LocationNames": [],
+                            "TileArea": {
+                                "x": 0,
+                                "y": 0,
+                                "width": 0,
+                                "height": 0
+                            },
+                            "ExtendedTileArea": null,
+                            "MapPixelArea": {
+                                "x": 145,
+                                "y": 71,
+                                "width": 2,
+                                "height": 2
+                            },
+                            "ScrollText": null,
+                            "ScrollTextZones": []
+                        },
+                        {
+                            "Id": "Volcano",
+                            "Condition": null,
+                            "LocationContext": null,
+                            "LocationName": "VolcanoDungeon",
+                            "LocationNames": [],
+                            "TileArea": {
+                                "x": 0,
+                                "y": 0,
+                                "width": 0,
+                                "height": 0
+                            },
+                            "ExtendedTileArea": null,
+                            "MapPixelArea": {
+                                "x": 159,
+                                "y": 53,
+                                "width": 1,
+                                "height": 1
+                            },
+                            "ScrollText": null,
+                            "ScrollTextZones": []
+                        },
+                        {
+                            "Id": "Default",
+                            "Condition": null,
+                            "LocationContext": null,
+                            "LocationName": "IslandNorth",
+                            "LocationNames": [],
+                            "TileArea": {
+                                "x": 0,
+                                "y": 0,
+                                "width": 0,
+                                "height": 0
+                            },
+                            "ExtendedTileArea": null,
+                            "MapPixelArea": {
+                                "x": 0,
+                                "y": 0,
+                                "width": 0,
+                                "height": 0
+                            },
+                            "ScrollText": null,
+                            "ScrollTextZones": []
+                        }
+                    ],
+                    "CustomFields": null
+                },
+                {
+                    "Id": "South",
+                    "Condition": null,
+                    "PixelArea": {
+                        "x": 142,
+                        "y": 104,
+                        "width": 31,
+                        "height": 44
+                    },
+                    "ScrollText": null,
+                    "Textures": [
+                        {
+                            "Id": "Resort",
+                            "Condition": "PLAYER_HAS_MAIL Host Island_Resort",
+                            "Texture": "LooseSprites\\map_island",
+                            "SourceRect": {
+                                "x": 0,
+                                "y": 180,
+                                "width": 17,
+                                "height": 17
+                            },
+                            "MapPixelArea": {
+                                "x": 149,
+                                "y": 111,
+                                "width": 17,
+                                "height": 17
+                            }
+                        }
+                    ],
+                    "Tooltips": [
+                        {
+                            "Id": "Dock",
+                            "Condition": null,
+                            "KnownCondition": null,
+                            "PixelArea": {
+                                "x": 148,
+                                "y": 130,
+                                "width": 9,
+                                "height": 16
+                            },
+                            "Text": "[LocalizedText Strings\\WorldMap:GingerIsland_South_Dock]",
+                            "LeftNeighbor": "West/Shipwreck",
+                            "RightNeighbor": "SouthEast/PirateCove",
+                            "UpNeighbor": "South/Resort, North/DigSite",
+                            "DownNeighbor": ""
+                        },
+                        {
+                            "Id": "Resort",
+                            "Condition": "PLAYER_HAS_MAIL Host Island_Resort",
+                            "KnownCondition": null,
+                            "PixelArea": {
+                                "x": 149,
+                                "y": 114,
+                                "width": 18,
+                                "height": 15
+                            },
+                            "Text": "[LocalizedText Strings\\WorldMap:GingerIsland_South_Resort]",
+                            "LeftNeighbor": "West/GourmandCave, West/House",
+                            "RightNeighbor": "SouthEast/PirateCove",
+                            "UpNeighbor": "North/Trader, North/DigSite",
+                            "DownNeighbor": "South/Dock"
+                        }
+                    ],
+                    "WorldPositions": [
+                        {
+                            "Id": "Default",
+                            "Condition": null,
+                            "LocationContext": null,
+                            "LocationName": "IslandSouth",
+                            "LocationNames": [],
+                            "TileArea": {
+                                "x": 0,
+                                "y": 0,
+                                "width": 0,
+                                "height": 0
+                            },
+                            "ExtendedTileArea": null,
+                            "MapPixelArea": {
+                                "x": 0,
+                                "y": 0,
+                                "width": 0,
+                                "height": 0
+                            },
+                            "ScrollText": null,
+                            "ScrollTextZones": []
+                        }
+                    ],
+                    "CustomFields": null
+                },
+                {
+                    "Id": "SouthEast",
+                    "Condition": null,
+                    "PixelArea": {
+                        "x": 174,
+                        "y": 104,
+                        "width": 31,
+                        "height": 44
+                    },
+                    "ScrollText": null,
+                    "Textures": [],
+                    "Tooltips": [
+                        {
+                            "Id": "PirateCove",
+                            "Condition": null,
+                            "KnownCondition": null,
+                            "PixelArea": {
+                                "x": 195,
+                                "y": 115,
+                                "width": 10,
+                                "height": 12
+                            },
+                            "Text": "[LocalizedText Strings\\WorldMap:GingerIsland_SouthEast_PirateCove]",
+                            "LeftNeighbor": "South/Resort, South/Dock",
+                            "RightNeighbor": "",
+                            "UpNeighbor": "East/JungleHut",
+                            "DownNeighbor": ""
+                        }
+                    ],
+                    "WorldPositions": [
+                        {
+                            "Id": "Cave",
+                            "Condition": null,
+                            "LocationContext": null,
+                            "LocationName": "IslandSouthEastCave",
+                            "LocationNames": [],
+                            "TileArea": {
+                                "x": 0,
+                                "y": 0,
+                                "width": 0,
+                                "height": 0
+                            },
+                            "ExtendedTileArea": null,
+                            "MapPixelArea": {
+                                "x": 200,
+                                "y": 113,
+                                "width": 6,
+                                "height": 12
+                            },
+                            "ScrollText": null,
+                            "ScrollTextZones": []
+                        },
+                        {
+                            "Id": "Default",
+                            "Condition": null,
+                            "LocationContext": null,
+                            "LocationName": "IslandSouthEast",
+                            "LocationNames": [],
+                            "TileArea": {
+                                "x": 0,
+                                "y": 0,
+                                "width": 0,
+                                "height": 0
+                            },
+                            "ExtendedTileArea": null,
+                            "MapPixelArea": {
+                                "x": 0,
+                                "y": 0,
+                                "width": 0,
+                                "height": 0
+                            },
+                            "ScrollText": null,
+                            "ScrollTextZones": []
+                        }
+                    ],
+                    "CustomFields": null
+                },
+                {
+                    "Id": "West",
+                    "Condition": null,
+                    "PixelArea": {
+                        "x": 39,
+                        "y": 82,
+                        "width": 80,
+                        "height": 80
+                    },
+                    "ScrollText": null,
+                    "Textures": [
+                        {
+                            "Id": "House",
+                            "Condition": "PLAYER_HAS_MAIL Host Island_UpgradeHouse",
+                            "Texture": "LooseSprites\\map_island",
+                            "SourceRect": {
+                                "x": 17,
+                                "y": 180,
+                                "width": 11,
+                                "height": 11
+                            },
+                            "MapPixelArea": {
+                                "x": 90,
+                                "y": 103,
+                                "width": 11,
+                                "height": 11
+                            }
+                        },
+                        {
+                            "Id": "GourmandCave",
+                            "Condition": "PLAYER_HAS_MAIL Host Island_UpgradeHouse",
+                            "Texture": "LooseSprites\\map_island",
+                            "SourceRect": {
+                                "x": 28,
+                                "y": 180,
+                                "width": 5,
+                                "height": 6
+                            },
+                            "MapPixelArea": {
+                                "x": 106,
+                                "y": 102,
+                                "width": 5,
+                                "height": 6
+                            }
+                        }
+                    ],
+                    "Tooltips": [
+                        {
+                            "Id": "BirdieShack",
+                            "Condition": null,
+                            "KnownCondition": "PLAYER_VISITED_LOCATION Current IslandWest",
+                            "PixelArea": {
+                                "x": 50,
+                                "y": 116,
+                                "width": 9,
+                                "height": 9
+                            },
+                            "Text": "[LocalizedText Strings\\WorldMap:GingerIsland_West_BirdieShack]",
+                            "LeftNeighbor": "",
+                            "RightNeighbor": "West/House",
+                            "UpNeighbor": "West/TigerSlimeGrove",
+                            "DownNeighbor": ""
+                        },
+                        {
+                            "Id": "GourmandCave",
+                            "Condition": "PLAYER_HAS_MAIL Host Island_UpgradeHouse",
+                            "KnownCondition": "PLAYER_VISITED_LOCATION Current IslandFarmCave",
+                            "PixelArea": {
+                                "x": 106,
+                                "y": 102,
+                                "width": 5,
+                                "height": 6
+                            },
+                            "Text": "[LocalizedText Strings\\WorldMap:GingerIsland_West_GourmandCave]",
+                            "LeftNeighbor": "West/House",
+                            "RightNeighbor": "South/Resort, South/Dock",
+                            "UpNeighbor": "",
+                            "DownNeighbor": "West/Shipwreck"
+                        },
+                        {
+                            "Id": "House",
+                            "Condition": null,
+                            "KnownCondition": "PLAYER_HAS_MAIL Host Island_UpgradeHouse",
+                            "PixelArea": {
+                                "x": 90,
+                                "y": 103,
+                                "width": 11,
+                                "height": 11
+                            },
+                            "Text": "[LocalizedText Strings\\WorldMap:GingerIsland_West_House]",
+                            "LeftNeighbor": "West/BirdieShack",
+                            "RightNeighbor": "West/GourmandCave, South/Resort, South/Dock",
+                            "UpNeighbor": "",
+                            "DownNeighbor": "West/Shipwreck"
+                        },
+                        {
+                            "Id": "QiWalnutRoom",
+                            "Condition": null,
+                            "KnownCondition": "PLAYER_VISITED_LOCATION Current QiNutRoom",
+                            "PixelArea": {
+                                "x": 51,
+                                "y": 95,
+                                "width": 5,
+                                "height": 6
+                            },
+                            "Text": "[LocalizedText Strings\\WorldMap:GingerIsland_West_QiWalnutRoom]",
+                            "LeftNeighbor": "",
+                            "RightNeighbor": "West/TigerSlimeGrove",
+                            "UpNeighbor": "",
+                            "DownNeighbor": "West/BirdieShack"
+                        },
+                        {
+                            "Id": "Shipwreck",
+                            "Condition": null,
+                            "KnownCondition": "PLAYER_VISITED_LOCATION Current CaptainRoom",
+                            "PixelArea": {
+                                "x": 80,
+                                "y": 145,
+                                "width": 19,
+                                "height": 10
+                            },
+                            "Text": "[LocalizedText Strings\\WorldMap:GingerIsland_West_Shipwreck]",
+                            "LeftNeighbor": "",
+                            "RightNeighbor": "",
+                            "UpNeighbor": "West/House",
+                            "DownNeighbor": ""
+                        },
+                        {
+                            "Id": "TigerSlimeGrove",
+                            "Condition": null,
+                            "KnownCondition": "PLAYER_VISITED_LOCATION Current IslandWest",
+                            "PixelArea": {
+                                "x": 62,
+                                "y": 94,
+                                "width": 14,
+                                "height": 13
+                            },
+                            "Text": "[LocalizedText Strings\\WorldMap:GingerIsland_West_TigerSlimeGrove]",
+                            "LeftNeighbor": "West/QiWalnutRoom",
+                            "RightNeighbor": "West/House",
+                            "UpNeighbor": "",
+                            "DownNeighbor": "West/BirdieShack"
+                        }
+                    ],
+                    "WorldPositions": [
+                        {
+                            "Id": "CrystalCave",
+                            "Condition": null,
+                            "LocationContext": null,
+                            "LocationName": "IslandWestCave1",
+                            "LocationNames": [],
+                            "TileArea": {
+                                "x": 0,
+                                "y": 0,
+                                "width": 0,
+                                "height": 0
+                            },
+                            "ExtendedTileArea": null,
+                            "MapPixelArea": {
+                                "x": 81,
+                                "y": 84,
+                                "width": 3,
+                                "height": 3
+                            },
+                            "ScrollText": null,
+                            "ScrollTextZones": []
+                        },
+                        {
+                            "Id": "GourmandCave",
+                            "Condition": null,
+                            "LocationContext": null,
+                            "LocationName": "IslandFarmCave",
+                            "LocationNames": [],
+                            "TileArea": {
+                                "x": 0,
+                                "y": 0,
+                                "width": 0,
+                                "height": 0
+                            },
+                            "ExtendedTileArea": null,
+                            "MapPixelArea": {
+                                "x": 106,
+                                "y": 102,
+                                "width": 5,
+                                "height": 6
+                            },
+                            "ScrollText": null,
+                            "ScrollTextZones": []
+                        },
+                        {
+                            "Id": "House",
+                            "Condition": null,
+                            "LocationContext": null,
+                            "LocationName": "IslandFarmHouse",
+                            "LocationNames": [],
+                            "TileArea": {
+                                "x": 0,
+                                "y": 0,
+                                "width": 0,
+                                "height": 0
+                            },
+                            "ExtendedTileArea": null,
+                            "MapPixelArea": {
+                                "x": 95,
+                                "y": 108,
+                                "width": 1,
+                                "height": 1
+                            },
+                            "ScrollText": null,
+                            "ScrollTextZones": []
+                        },
+                        {
+                            "Id": "QiWalnutRoom",
+                            "Condition": null,
+                            "LocationContext": null,
+                            "LocationName": "QiNutRoom",
+                            "LocationNames": [],
+                            "TileArea": {
+                                "x": 0,
+                                "y": 0,
+                                "width": 0,
+                                "height": 0
+                            },
+                            "ExtendedTileArea": null,
+                            "MapPixelArea": {
+                                "x": 51,
+                                "y": 95,
+                                "width": 5,
+                                "height": 4
+                            },
+                            "ScrollText": null,
+                            "ScrollTextZones": []
+                        },
+                        {
+                            "Id": "CaptainRoom",
+                            "Condition": null,
+                            "LocationContext": null,
+                            "LocationName": "CaptainRoom",
+                            "LocationNames": [],
+                            "TileArea": {
+                                "x": 0,
+                                "y": 0,
+                                "width": 0,
+                                "height": 0
+                            },
+                            "ExtendedTileArea": null,
+                            "MapPixelArea": {
+                                "x": 85,
+                                "y": 149,
+                                "width": 1,
+                                "height": 1
+                            },
+                            "ScrollText": null,
+                            "ScrollTextZones": []
+                        },
+                        {
+                            "Id": "Default",
+                            "Condition": null,
+                            "LocationContext": null,
+                            "LocationName": "IslandWest",
+                            "LocationNames": [],
+                            "TileArea": {
+                                "x": 0,
+                                "y": 0,
+                                "width": 0,
+                                "height": 0
+                            },
+                            "ExtendedTileArea": null,
+                            "MapPixelArea": {
+                                "x": 0,
+                                "y": 0,
+                                "width": 0,
+                                "height": 0
+                            },
+                            "ScrollText": null,
+                            "ScrollTextZones": []
+                        }
+                    ],
+                    "CustomFields": null
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,108 @@
+{
+    "header": {
+        "target": "w",
+        "formatVersion": 5,
+        "hidef": true,
+        "compressed": 128
+    },
+    "readers": [
+        {
+            "type": "Microsoft.Xna.Framework.Content.DictionaryReader`2[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[StardewValley.GameData.Minecarts.MinecartNetworkData, StardewValley.GameData, Version=1.6.8.24119, Culture=neutral, PublicKeyToken=null]]",
+            "version": 0
+        },
+        {
+            "type": "Microsoft.Xna.Framework.Content.StringReader",
+            "version": 0
+        },
+        {
+            "type": "Microsoft.Xna.Framework.Content.ReflectiveReader`1[[StardewValley.GameData.Minecarts.MinecartNetworkData, StardewValley.GameData, Version=1.6.8.24119, Culture=neutral, PublicKeyToken=null]]",
+            "version": 0
+        },
+        {
+            "type": "Microsoft.Xna.Framework.Content.ListReader`1[[StardewValley.GameData.Minecarts.MinecartDestinationData, StardewValley.GameData, Version=1.6.8.24119, Culture=neutral, PublicKeyToken=null]]",
+            "version": 0
+        },
+        {
+            "type": "Microsoft.Xna.Framework.Content.ReflectiveReader`1[[StardewValley.GameData.Minecarts.MinecartDestinationData, StardewValley.GameData, Version=1.6.8.24119, Culture=neutral, PublicKeyToken=null]]",
+            "version": 0
+        },
+        {
+            "type": "Microsoft.Xna.Framework.Content.Int32Reader",
+            "version": 0
+        },
+        {
+            "type": "Microsoft.Xna.Framework.Content.PointReader",
+            "version": 0
+        },
+        {
+            "type": "Microsoft.Xna.Framework.Content.DictionaryReader`2[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]",
+            "version": 0
+        }
+    ],
+    "content": {
+        "Default": {
+            "UnlockCondition": "PLAYER_HAS_MAIL Host ccBoilerRoom Received",
+            "LockedMessage": null,
+            "ChooseDestinationMessage": null,
+            "BuyTicketMessage": null,
+            "Destinations": [
+                {
+                    "Id": "Mines",
+                    "DisplayName": "[LocalizedText Strings\\Locations:MineCart_Destination_Mines]",
+                    "Condition": "PLAYER_HAS_MAIL Any landslideDone",
+                    "Price": 0,
+                    "BuyTicketMessage": null,
+                    "TargetLocation": "Mine",
+                    "TargetTile": {
+                        "x": 13,
+                        "y": 9
+                    },
+                    "TargetDirection": "right",
+                    "CustomFields": null
+                },
+                {
+                    "Id": "Town",
+                    "DisplayName": "[LocalizedText Strings\\Locations:MineCart_Destination_Town]",
+                    "Condition": null,
+                    "Price": 0,
+                    "BuyTicketMessage": null,
+                    "TargetLocation": "Town",
+                    "TargetTile": {
+                        "x": 105,
+                        "y": 80
+                    },
+                    "TargetDirection": "right",
+                    "CustomFields": null
+                },
+                {
+                    "Id": "Bus",
+                    "DisplayName": "[LocalizedText Strings\\Locations:MineCart_Destination_BusStop]",
+                    "Condition": null,
+                    "Price": 0,
+                    "BuyTicketMessage": null,
+                    "TargetLocation": "BusStop",
+                    "TargetTile": {
+                        "x": 14,
+                        "y": 4
+                    },
+                    "TargetDirection": null,
+                    "CustomFields": null
+                },
+                {
+                    "Id": "Quarry",
+                    "DisplayName": "[LocalizedText Strings\\Locations:MineCart_Destination_Quarry]",
+                    "Condition": "PLAYER_HAS_MAIL Host ccCraftsRoom Received",
+                    "Price": 0,
+                    "BuyTicketMessage": null,
+                    "TargetLocation": "Mountain",
+                    "TargetTile": {
+                        "x": 124,
+                        "y": 12
+                    },
+                    "TargetDirection": null,
+                    "CustomFields": null
+                }
+            ]
+        }
+    }
+}
